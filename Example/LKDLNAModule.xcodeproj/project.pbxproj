@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		1FCA55771BA7DAABB6ED64B1 /* Pods_LKDLNAModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKDLNAModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2465CAC9D10B9BD83E1D0F7A /* Pods-LKDLNAModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKDLNAModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-LKDLNAModule_Example/Pods-LKDLNAModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		5D73788359BE94FB780FF09C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5D73788359BE94FB780FF09C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LKDLNAModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKDLNAModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,9 +64,9 @@
 		87F2FDFE609BADEBC2EE5249 /* Pods-LKDLNAModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKDLNAModule_Example.release.xcconfig"; path = "Target Support Files/Pods-LKDLNAModule_Example/Pods-LKDLNAModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		97F51059F63C22AB71E9210D /* Pods-LKDLNAModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKDLNAModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-LKDLNAModule_Tests/Pods-LKDLNAModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AC9BB5EDD5D42A7BECEA1A54 /* Pods-LKDLNAModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKDLNAModule_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LKDLNAModule_Tests/Pods-LKDLNAModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C1BACFBA1BBA1BD24E647B35 /* LKDLNAModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LKDLNAModule.podspec; path = ../LKDLNAModule.podspec; sourceTree = "<group>"; };
+		C1BACFBA1BBA1BD24E647B35 /* LKDLNAModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKDLNAModule.podspec; path = ../LKDLNAModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CAB58DDE894A9C29C1B6C6A8 /* Pods_LKDLNAModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKDLNAModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DD12D8DEDEAEB8B8F0B7BC8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DD12D8DEDEAEB8B8F0B7BC8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				AC9BB5EDD5D42A7BECEA1A54 /* Pods-LKDLNAModule_Tests.debug.xcconfig */,
 				97F51059F63C22AB71E9210D /* Pods-LKDLNAModule_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -321,11 +321,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-LKDLNAModule_Example/Pods-LKDLNAModule_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
 				"${BUILT_PRODUCTS_DIR}/LKDLNAModule/LKDLNAModule.framework",
+				"${BUILT_PRODUCTS_DIR}/LKMacroCategoryModule/LKMacroCategoryModule.framework",
+				"${BUILT_PRODUCTS_DIR}/MRDLNA/MRDLNA.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKDLNAModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LKMacroCategoryModule.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MRDLNA.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,0 +1,44 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - LKDLNAModule (1):
+    - LKMacroCategoryModule
+    - MRDLNA
+  - LKMacroCategoryModule (1)
+  - MRDLNA (0.1.1):
+    - CocoaAsyncSocket
+    - MRDLNA/MRC (= 0.1.1)
+  - MRDLNA/MRC (0.1.1):
+    - CocoaAsyncSocket
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LKDLNAModule (from `../`)
+  - LKMacroCategoryModule (from `../../LKMacroCategoryModule`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - FBSnapshotTestCase
+    - MRDLNA
+
+EXTERNAL SOURCES:
+  LKDLNAModule:
+    :path: "../"
+  LKMacroCategoryModule:
+    :path: "../../LKMacroCategoryModule"
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  LKDLNAModule: f0adefc7625162eed16f823804a8a50dd62e333e
+  LKMacroCategoryModule: ba028e0a31ac596a670bb52419529b34859a19a4
+  MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
+
+PODFILE CHECKSUM: 5362170c4c58bb5aff70215ede9aff54a7497823
+
+COCOAPODS: 1.10.1
