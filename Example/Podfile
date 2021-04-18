@@ -4,7 +4,8 @@ platform :ios, '9.0'
 
 target 'LKDLNAModule_Example' do
   pod 'LKDLNAModule', :path => '../'
-  pod 'LKMacroCategoryModule', :path => '../../LKMacroCategoryModule'
+#  pod 'LKMacroCategoryModule', :path => '../../LKMacroCategoryModule'
+  pod 'LKMacroCategoryModule', :git => 'https://github.com/kaige1123/LKMacroCategoryModule.git'
 
   target 'LKDLNAModule_Tests' do
     inherit! :search_paths

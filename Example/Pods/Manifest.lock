@@ -18,7 +18,7 @@ PODS:
 DEPENDENCIES:
   - FBSnapshotTestCase
   - LKDLNAModule (from `../`)
-  - LKMacroCategoryModule (from `../../LKMacroCategoryModule`)
+  - LKMacroCategoryModule (from `https://github.com/kaige1123/LKMacroCategoryModule.git`)
 
 SPEC REPOS:
   trunk:
@@ -30,7 +30,12 @@ EXTERNAL SOURCES:
   LKDLNAModule:
     :path: "../"
   LKMacroCategoryModule:
-    :path: "../../LKMacroCategoryModule"
+    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
+
+CHECKOUT OPTIONS:
+  LKMacroCategoryModule:
+    :commit: a576fdaabc46ea39863a3c865ed1f0cdb445b6ea
+    :git: https://github.com/kaige1123/LKMacroCategoryModule.git
 
 SPEC CHECKSUMS:
   CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
@@ -39,6 +44,6 @@ SPEC CHECKSUMS:
   LKMacroCategoryModule: ba028e0a31ac596a670bb52419529b34859a19a4
   MRDLNA: 3fe35c6ac57c946413d07896faeb9101c4d8853d
 
-PODFILE CHECKSUM: 5362170c4c58bb5aff70215ede9aff54a7497823
+PODFILE CHECKSUM: 8b71e9f08ba859429e9185d2ae5f2d054725a6bb
 
 COCOAPODS: 1.10.1

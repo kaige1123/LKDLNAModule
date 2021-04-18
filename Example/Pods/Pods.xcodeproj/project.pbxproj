@@ -7,280 +7,277 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C146B580740862ED0843DCBBFF951B1 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		05F13AA684C61D24644B3094C502CAF1 /* CLUPnPAVPositionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = B04BFCF5E83573FF1CE173CB47D8C76D /* CLUPnPAVPositionInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09B5E5410FB1D5E3BF88897D084CEF44 /* LGCastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E657373824AEE5B0C985B3FBD5BDCFA /* LGCastManager.m */; };
-		0EA73E53653592DC170389AF6A2981E4 /* UIColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F596DABF8C5E86810916858DE6A289E /* UIColor+Custom.m */; };
-		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = FFE202605E144D96C3C1A4D683FDDFFD /* UIApplication+StrictKeyWindow.m */; };
+		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F0AE7BD7FC948617E5CD5FEB5DE6C57 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0532AFD94731C735ED94216721ADCB1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94898D789985001A527E53945065EEE1 /* Foundation.framework */; };
+		08991E3B7E61B9681E935E922F159420 /* CLUPnPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE51D19A111DE4BE3C2B0E259321481 /* CLUPnPServer.m */; };
+		09B5E5410FB1D5E3BF88897D084CEF44 /* LGCastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C2BC0A66454366BCCCB30B116F308927 /* LGCastManager.m */; };
+		0C04EA8F764CE7F1573ED49D65980638 /* StopAction.h in Headers */ = {isa = PBXBuildFile; fileRef = E442BCA96CEA92BB7A72AF70AA71E708 /* StopAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 69BC87704826F91BABB935BBF8232791 /* UIApplication+StrictKeyWindow.m */; };
 		121439AB6B4061E1B6222256817548FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7618B34D1868093246C24F7618ABEB7C /* XCTest.framework */; };
-		124D96D59191619A5AF11CF1FF7049EF /* MRDLNA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE3E86A5D7E2421B6900754EFB389C13 /* MRDLNA-dummy.m */; };
-		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D06EF336B4431E91A92448008F5A1C3 /* UIImage+Diff.m */; };
-		14F8F4AA959CDE8844936164ED2CE9DD /* CLUPnPAction.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB5F60B30CFD14078F1E1FC24944996 /* CLUPnPAction.m */; };
+		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BEB33F924ED1448DCCED3EF91BD6D5 /* UIImage+Diff.m */; };
+		172A681AF51C30747D1055B8444F16C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94898D789985001A527E53945065EEE1 /* Foundation.framework */; };
 		19125FFED6290E5732C552A098C20D39 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795E4BECFE900EAD11F0C82BA65961E7 /* CFNetwork.framework */; };
-		19AA6F579D301634F8F78C3F300CB101 /* LKMacroCategoryModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A4723A8F75360311BE4C47ECFCF7975 /* LKMacroCategoryModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C7C608091334B29AA1F96D400B24326 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 6160B11952B5FA7092BB314DA06757E2 /* GCDAsyncSocket.m */; };
-		1E737CF0F8E98A857BB94B95B943BB41 /* MRDLNA.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D8DF8679B0708DBE72BD1C52DCCF424 /* MRDLNA.m */; };
+		1C7C608091334B29AA1F96D400B24326 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B1AF0DFB11C516A10454C982C8E7BA57 /* GCDAsyncSocket.m */; };
+		1D51F2809A889E16FD5BD86888983987 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985F6D30BFF9F51878D80EA348ABE378 /* CocoaAsyncSocket.framework */; };
 		1EC6767A1CA2A7CAFA47B795BE1D497C /* MRDLNA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7688CE670826A11DD7E891D1B9CE4DFD /* MRDLNA.framework */; };
-		28B17BBD1D87DC665851542B83D0403F /* CLUPnPDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 3314A049CC6F4093FC8D37A7C7512769 /* CLUPnPDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7DCD2C36525B3796308EE4ADA313A2B /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F0D62B62E521CFE95FE6F09F122299 /* UIImage+Compare.m */; };
+		1FAC6D0B24152B0F75D6E08308847F26 /* UIColor+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = D889E898CD50BA02F5EEFE27092726F5 /* UIColor+Custom.m */; };
+		2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 287C6F1529E975DA2FDDF6539C6203FF /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = C27716F455324A40AD5E6A7DBD829587 /* UIImage+Compare.m */; };
 		2E4C0BD2363ABABB6470FBA5415985AA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EECF549CF3DDA83C8EB0F549EC6B847C /* QuartzCore.framework */; };
-		308701B9BD1DD174438F21C7E051BDA1 /* LKDLNAModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C28D623FFC05263B83473629A8E4EC /* LKDLNAModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		368C0DB4451EB8F59430AFDCC82EA75F /* LGDLNAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0E6F84168C1EAE2CC92B4F28235637 /* LGDLNAViewController.m */; };
-		38F47667AF1A16A4F697FC9B0C66CC40 /* CLUPnPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F3D21187450596961E6ACB19066BFDB /* CLUPnPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3B7FC5FC982DBB1EB754C18C09AD7598 /* SetUrl.xml in Sources */ = {isa = PBXBuildFile; fileRef = 3CB2B17BEBD339358D6AA22C91427FEA /* SetUrl.xml */; };
-		3CEC9CD0E4C47B86A0190AF45B3DB083 /* StopAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 773B696E20D8832FCBD690C82575A3C9 /* StopAction.m */; };
-		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF2AB7AD91D5A20A0EDEA20E871ACF2 /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 344E6A219CF40382EFF2AC1D2C5A82F5 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42408DEE7D14CC84FCD8DC6287185E6D /* LGCastManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFA98353775A5A7CC1A71E2E654984B /* LGCastManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		42C37BBEFBC56D687D877CF8FBFCE7B3 /* CLUPnPRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FD6AC2D6EE96C8513FA506FEED8AC90 /* CLUPnPRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4979D35832B85CF6F7D50D845D866A4E /* UIViewController+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2016597556D61562B9FB9DBDF712000A /* UIViewController+CurrentViewController.m */; };
-		4B3BCD8A13D071549453E833CD89D714 /* LGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BAB92C76ECC69E3AE7F33EABB994287 /* LGMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		307E5ADA7951CDFCC292CC8F75F6BB57 /* CLUPnPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB0A8A87E3FC304E754CB9399E35269 /* CLUPnPDevice.m */; };
+		308701B9BD1DD174438F21C7E051BDA1 /* LKDLNAModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F8AB1D72274B7AF96CB579C5BEEAFF4 /* LKDLNAModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30CB62B4DFA2A4F80CA5904194FE6FD6 /* MRDLNA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A66613964BE14242B525DEC429FF2663 /* MRDLNA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		368C0DB4451EB8F59430AFDCC82EA75F /* LGDLNAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 170CFC81B7C0811046B4F2C682FA80F6 /* LGDLNAViewController.m */; };
+		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = DE062BEF4F7E5654E3E3999B52D2CCBD /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4033B135FD1793745A8BB1F270EE3274 /* NSString+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FBE51FDEA79EF25491445A86D4838BC /* NSString+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = DD6CB89537E34BB7B4B3097A0805C839 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42408DEE7D14CC84FCD8DC6287185E6D /* LGCastManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E099857FEE87D43071407A0774DD61 /* LGCastManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F522691E2A28AC854188B0F86970AB /* MRDLNA.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2BD2E7BD1BB8772030BCC774189459 /* MRDLNA.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		501119DC0CF2877F95F7B9D75CA39F90 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DAEA063E80EC796B64B09922D3FB8E /* Security.framework */; };
-		5382E5DFBA0A223695C96D3F54F59F29 /* LKMacroCategoryModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06816002E5EC60B84B4E676CB0F1AE39 /* LKMacroCategoryModule-dummy.m */; };
-		55F477DD672049B4A71B35FE6FE8B1AF /* CLUPnPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D547C68899DD8AC850815FD3C00A47 /* CLUPnPDevice.m */; };
-		56E2828E3B14D27307702A74720CED96 /* NSString+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D7A36083579D04F07AC9888530FF76 /* NSString+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68A5CDE8F78609E536D04140A3846A23 /* Device.xml in Sources */ = {isa = PBXBuildFile; fileRef = 09445B065A34E1B16F5D81E4403A1083 /* Device.xml */; };
-		6C0354BA8A91D309FB48EE67C348ECD4 /* CLUPnPAVPositionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ABC24487620D33AEA733626472377CE /* CLUPnPAVPositionInfo.m */; };
-		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3266951EE07C0DF9E05CF27D782E2C3E /* FBSnapshotTestCase-dummy.m */; };
-		6FFB23DD5E8DD756D3A4AB53EEE4BA8E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = BCFE56F33D2FDAD94B6D275BC10EB6B7 /* GCDAsyncUdpSocket.m */; };
-		70CA203F6788ADFC989A318B50194CE2 /* MRDLNA.h in Headers */ = {isa = PBXBuildFile; fileRef = 7040917AB71524BE07215F4105E6BD0E /* MRDLNA.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		71D41CC52B6746353A3E25B529FC0BEA /* MRDLNA-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42EB060076BC43CFE45C5810C4872EA8 /* MRDLNA-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6377F38881CFAFB44B8C1DCE9EF16EC6 /* CLUPnPDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 536BC79C2A287CC0116F2D706452E34B /* CLUPnPDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB2E6964A138F145CFDC6955FDAFDCD /* CLUPnPRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD3F7CA3AB2B74A9943AEB2640E47D6 /* CLUPnPRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7355A7490028A6493F7F25225D52C809 /* FBSnapshotTestCase-dummy.m */; };
+		6FB1799CE121F9A31DE2E8B9DE5D63CF /* UIViewController+CurrentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD5499628DBA11482AB1E673DEEA534 /* UIViewController+CurrentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFB23DD5E8DD756D3A4AB53EEE4BA8E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = CDFBA491DD8976682AC72B6459E7F503 /* GCDAsyncUdpSocket.m */; };
+		75B8D19A6065204B4C192C6ECDB28EC7 /* LKMacroCategoryModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 688A16643C2A6CAC84EC9F9CF84675AE /* LKMacroCategoryModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77419C5918A4D67696487EDD1F8A0DD9 /* LKMacroCategoryModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B234CB409ADCBE6FA9539FA25DB1A95 /* LKMacroCategoryModule.framework */; };
-		7DB13D9D35CDDDE23A046566B53467E8 /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 636C501BD8B0D3A3206F84B4DC93FDAA /* NSString+Custom.m */; };
-		800D7019A054FDA7775F731180CA1A22 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E67D8C5EA7ABACD5A8BB7B9B60D365D3 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DFBD96E81C5179BFA3676E71F9EC67 /* FBSnapshotTestController.m */; };
-		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A4967A71ED4F1E6F7F5E7438B07B96 /* FBSnapshotTestCase.m */; };
-		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = BBF196D9298773AA08BA90B132A1433F /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91D9150B4A021FA25737B0C4333351C0 /* CLUPnPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A049DED74CC45E5712EAAAC8E1C10790 /* CLUPnPAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3B33BEC2AF9CCC5AD76B6076B9F41CA /* SwiftSupport.swift */; };
-		9FF1167342EB019187DD0F18968476C0 /* LKDLNAModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 355D46DF0BD20FE97A872033C743CCE2 /* LKDLNAModule-dummy.m */; };
+		796193500157FF77A2D2F5BD1D45DB7B /* StopAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6316593D967A9921F067BCC43D2227F2 /* StopAction.m */; };
+		798041A82E3C935EFC435C6CF611BF70 /* MRDLNA-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E57EDFD5ADAA94BBD256E11951C93A6D /* MRDLNA-dummy.m */; };
+		7E8D2CDAE4085D97D1DF07FEC695D9FB /* NSString+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = A7732204071FFE2908A8BB40D7528899 /* NSString+Custom.m */; };
+		849D9F5CC29D7356DA5710A634516AC2 /* LGMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = C271FDB5108191EBF2090CCA61ADC719 /* LGMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B49D0CE5408C6B7859729A37C14F3A /* FBSnapshotTestController.m */; };
+		899273C46E86A05C4E177B58BCE2B077 /* LKMacroCategoryModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8227979CED83EA75D037F697DF50D44 /* LKMacroCategoryModule-dummy.m */; };
+		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = EA7955F81F94C475CC770A3C9A79D246 /* FBSnapshotTestCase.m */; };
+		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C0D9F0DE1DF9EDB0C6CAF5BF0F7E9A4 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94862834EB213685F3D8A5A8D424A0CF /* CLUPnPRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 53FF7627F6B28B4A21E4CC4C366C7988 /* CLUPnPRenderer.m */; };
+		9BE2766249A3021DA0696EAC8A9C6A0F /* UIColor+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = A578FB61DEC5C68D767D96578C81A594 /* UIColor+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419E4E5EA2712F92003E9D5621B6C502 /* SwiftSupport.swift */; };
+		9FF1167342EB019187DD0F18968476C0 /* LKDLNAModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D1ED912EE7E77DAA874B99914342673 /* LKDLNAModule-dummy.m */; };
 		A327F93DFB5ADE7A952D646361DB02F6 /* Pods-LKDLNAModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 547E419BE813492017AD8E374F71E823 /* Pods-LKDLNAModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A43E2C3DA79BAEB1F68F78C6B279379D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94898D789985001A527E53945065EEE1 /* Foundation.framework */; };
-		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D37DBDAD933B5C77803C1CB76F7B7D4 /* UIImage+Snapshot.m */; };
-		A95923DF608952B397216B18712ED6EC /* StopAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D3168DDF1276CBD89648FF52F632245 /* StopAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 86A40BE30F9728FE948048A59D6B1DD0 /* UIImage+Snapshot.m */; };
+		A5E989DDCCFE57BBB81E614A339D80C0 /* Device.xml in Sources */ = {isa = PBXBuildFile; fileRef = 5250D579D9FC23ED7BE313BB5100CAA6 /* Device.xml */; };
+		A6FAA8790B8F89FEF26213100E474C78 /* CLUPnPAVPositionInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 89FA9202888A385329A8FE200BD84D0E /* CLUPnPAVPositionInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A9916BE154D152B2B19993DB95D82CC9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94898D789985001A527E53945065EEE1 /* Foundation.framework */; };
 		AE83C547BADADC3800ED98EF0E5E550F /* Pods-LKDLNAModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44890C14EEBF431BA587677954E3E4A8 /* Pods-LKDLNAModule_Example-dummy.m */; };
-		B6D5CF0F11F69CC8FCDF39029CD3E7B5 /* CLUPnPRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 269BAA17DE3AFCEF93C74F5DF6175C31 /* CLUPnPRenderer.m */; };
-		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = D3F6141A1297C340D5396E946B741C61 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		BCE6107DF17843A24F5587663914BDC7 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = A6B2957702A61F468C707EC08235695F /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFA8B777F096625307C85EAA89F903CC /* SetUrl.xml in Sources */ = {isa = PBXBuildFile; fileRef = 9C52F4CD2583957AE27119724B1FA825 /* SetUrl.xml */; };
+		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F080F31E1B435941D16F4DDB8299F3C /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B788E3F8E968661A204EE469BF3B2D09 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBCA534F789E98430E0D80DD04B1462 /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		BD144AD138283B3B48934DF2DB66A77E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94898D789985001A527E53945065EEE1 /* Foundation.framework */; };
 		BD4953074A12E769ED4E6C94F5E73694 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A61E4BF663819448CEB976C6811EDB /* UIKit.framework */; };
-		C18E813B7C082543AE178BAF67A2A585 /* UIViewController+CurrentViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FDEFF7B5D6D7074249C83D1D9A47A96 /* UIViewController+CurrentViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2D64A0E4B011C132D61FF38819577F3 /* Pods-LKDLNAModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E4083274A610D4D74FAF4F4B6F8F29A /* Pods-LKDLNAModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 24AA7D883F277D27229A5AB9A0C514B5 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C55080AD6A57451C153F1CA2FC6C8EB5 /* LGDLNAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 884B3AEE2EB468D4D659D908FFAEE587 /* LGDLNAViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6B0E93CFB23404545FAC1553B4BC6D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94898D789985001A527E53945065EEE1 /* Foundation.framework */; };
-		C89DDBF337E095F0D4817E78BC27019B /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985F6D30BFF9F51878D80EA348ABE378 /* CocoaAsyncSocket.framework */; };
+		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 31497D5A7CF6EB78870662AA588D1C10 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C50AEC2B98E25986BC86668F39359D04 /* CLUPnP.h in Headers */ = {isa = PBXBuildFile; fileRef = EB421000984BAB6292B12E8732C8A4B2 /* CLUPnP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C55080AD6A57451C153F1CA2FC6C8EB5 /* LGDLNAViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2C4BD3F1B189AB47F8C4BDAF25CB70 /* LGDLNAViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CA63ADACAC6C2BF1E30108E6BEF68A09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94898D789985001A527E53945065EEE1 /* Foundation.framework */; };
-		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 687147CCAA08A4C4C21D0ED0354523D0 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CEDB7CAFAAAFEB8F74849741E509BD50 /* CLUPnPServer.h in Headers */ = {isa = PBXBuildFile; fileRef = 533F6354BE99B670E3CB2E8CA2D21BA6 /* CLUPnPServer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 56D62A21EA31CF608975CB14FB4D0CBA /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		D26C8AAD67F5B27FB493AB786C08C0D8 /* Pods-LKDLNAModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F581EBA201B5F836E6BDCB178D21A638 /* Pods-LKDLNAModule_Tests-dummy.m */; };
+		D32226CA74C2C402C01B8B7C1E3E0DC9 /* CLUPnPAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7F2F9C305AFF91A8565BE9AEA2730 /* CLUPnPAction.m */; };
 		D9896727156EC2A02ED509B3447F3AF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94898D789985001A527E53945065EEE1 /* Foundation.framework */; };
-		DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 39999D37F254EEE5F8A1CF94D9919E6A /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E1BBE03B3EC6414C9B59DA6D659DEAD6 /* CLUPnPResponseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = E7A75013AAD321910F97DA08D0632879 /* CLUPnPResponseDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 497439AAAC8CF6707B20D68416C76BBD /* FBSnapshotTestCasePlatform.m */; };
-		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2B8EAD65D72316078C3CDFA09BDFAD /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		F4A6BEE824DAE45EB687465D1883860C /* CLUPnPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A5C742F94BD578AEEFF0155F9E31A72 /* CLUPnPServer.m */; };
-		F570F55FF88909EF0693ADFF6C523DB6 /* UIColor+Custom.h in Headers */ = {isa = PBXBuildFile; fileRef = 7365839B0414D0CBA3C6E96DCCB2F3BF /* UIColor+Custom.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F6A3AF3961D77433AF205E82D879E67F /* CLUPnP.h in Headers */ = {isa = PBXBuildFile; fileRef = 87C80F11E0F1789EEAF8D68477FEBE27 /* CLUPnP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C962DEE47381737B372E246D7A3B5AE4 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBB70AF3F803450935EE98C837D98688 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D512858090998068EBF48DDB035A76 /* CocoaAsyncSocket-dummy.m */; };
+		DBF33E9F3B7CF60B57E43E706AA579B9 /* CLUPnPResponseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFF5C09D6C405158247C43061C39914 /* CLUPnPResponseDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = DC54AE7A58FCB7735D42ED4004C7B6B5 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E890031FFBF9F56446A04A5CB347C8B4 /* MRDLNA.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D259F76A78152C06FED3EB00D4457C0 /* MRDLNA.m */; };
+		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FB194B114A66B8DAC045DC89793828F /* FBSnapshotTestCasePlatform.m */; };
+		EDE0D80CBC5110CAC38AA5794FE8E6CF /* CLUPnPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = C18BF922B6DD2DD9BADA0B3B5517F5F7 /* CLUPnPAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE7AAB64AF997ADF90CCFF1C93DD5E7C /* UIViewController+CurrentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EB280FAF2355C4A2A893EAFEC191263 /* UIViewController+CurrentViewController.m */; };
+		EEE1F8B2ED62D341A83F66DC9BCA4C75 /* CLUPnPAVPositionInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E3DF26F45A659DD029191E33E76C19 /* CLUPnPAVPositionInfo.m */; };
+		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 750768A2BEEF85A1CAC4FF248E357C53 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		F6C580AEA5BB7581F428D7B86204FF47 /* GDataXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 74B016D83AC6D654915D3D332F2960F4 /* GDataXMLNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAC903C9F2123006AC2E28F07791FA0 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBB70AF3F803450935EE98C837D98688 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C19F5C9A8368BC31F319011F9DA90782 /* CocoaAsyncSocket-dummy.m */; };
 		FDB06EDA644E63D93EC79DB45832D8D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94898D789985001A527E53945065EEE1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1539F71441A70870CD5BFA7C84BEAA80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
-			remoteInfo = CocoaAsyncSocket;
-		};
-		377FC3512F3D26EE099B1184F7A550E8 /* PBXContainerItemProxy */ = {
+		28889CF77CB593C8DE0CFDC125FEC62C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3D133736615D25181CFFC407B5895BD4;
 			remoteInfo = MRDLNA;
 		};
-		42F06DB8EC039675E0536410455507D1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
-			remoteInfo = CocoaAsyncSocket;
-		};
-		51066BAD3DE923CE25691EA4ECCFC7C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2BBD618FF6C146D29CB9CE608A2C8FEA;
-			remoteInfo = LKDLNAModule;
-		};
-		68ADCD0CB73FDA126110CEF19B277E74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
-			remoteInfo = FBSnapshotTestCase;
-		};
-		84DEE197542709B288B4CD27E6CF057B /* PBXContainerItemProxy */ = {
+		2979EEC5D3706626E08FA34A2C3285EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D2CB8845D0C3998A74C83807CAF79E12;
 			remoteInfo = "Pods-LKDLNAModule_Example";
 		};
-		8F7CDB1181A4B1150EAFBC90B3D3B10C /* PBXContainerItemProxy */ = {
+		344B57C5F2E71B2A6489139E75ECA2EA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8CD00A1633E74E637559713DD41C0B68;
-			remoteInfo = LKMacroCategoryModule;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
 		};
-		9AE6ADE730E9AF16470ACC4308AAF831 /* PBXContainerItemProxy */ = {
+		35E4014725AC627277F5FF426CD8290B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8CD00A1633E74E637559713DD41C0B68;
-			remoteInfo = LKMacroCategoryModule;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
 		};
-		C9A3CBEA17907BBA18E0DDE97C3DADCD /* PBXContainerItemProxy */ = {
+		829390C0A20B201E2CD5645E2A81BDFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BBD618FF6C146D29CB9CE608A2C8FEA;
+			remoteInfo = LKDLNAModule;
+		};
+		83FB2B14990546F40BE4C3240009CFC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3D133736615D25181CFFC407B5895BD4;
 			remoteInfo = MRDLNA;
 		};
+		B8E2A08A0E2EE93315105EEC82F13949 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		B92AD5FC25CC0FA257A0900C9B100EEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD00A1633E74E637559713DD41C0B68;
+			remoteInfo = LKMacroCategoryModule;
+		};
+		FA0D5338C650DEA6555C4B7175F2F47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CD00A1633E74E637559713DD41C0B68;
+			remoteInfo = LKMacroCategoryModule;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		025C9FA3F35897CC18FCAD1E00B565CE /* LKDLNAModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKDLNAModule.release.xcconfig; sourceTree = "<group>"; };
-		06816002E5EC60B84B4E676CB0F1AE39 /* LKMacroCategoryModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKMacroCategoryModule-dummy.m"; sourceTree = "<group>"; };
-		09445B065A34E1B16F5D81E4403A1083 /* Device.xml */ = {isa = PBXFileReference; includeInIndex = 1; name = Device.xml; path = MRDLNA/Classes/ARC/DLNA/Device.xml; sourceTree = "<group>"; };
-		0B2B8EAD65D72316078C3CDFA09BDFAD /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		0C146B580740862ED0843DCBBFF951B1 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
-		0C553DE865392A7C6E1015EC27436CA8 /* LKDLNAModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LKDLNAModule-Info.plist"; sourceTree = "<group>"; };
-		0DC75D18CE4B1CAE5BE50ADAAE600058 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		0E657373824AEE5B0C985B3FBD5BDCFA /* LGCastManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGCastManager.m; path = LKDLNAModule/Classes/LGCastManager.m; sourceTree = "<group>"; };
+		061C5DFEA00DB30D8A8040C9E0D363FD /* LKMacroCategoryModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LKMacroCategoryModule.modulemap; sourceTree = "<group>"; };
+		08EF5D19EEE69F0A35FE859E6347B281 /* LKDLNAModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKDLNAModule-prefix.pch"; sourceTree = "<group>"; };
 		1136E6DC5954095A386D05566673B4F6 /* Pods-LKDLNAModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKDLNAModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1D3168DDF1276CBD89648FF52F632245 /* StopAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StopAction.h; path = MRDLNA/Classes/ARC/DLNA/StopAction.h; sourceTree = "<group>"; };
+		14D38FC23131893C81F0B07DEF09C04A /* LKMacroCategoryModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKMacroCategoryModule.release.xcconfig; sourceTree = "<group>"; };
+		170CFC81B7C0811046B4F2C682FA80F6 /* LGDLNAViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGDLNAViewController.m; path = LKDLNAModule/Classes/LGDLNAViewController.m; sourceTree = "<group>"; };
 		1D4BB98D1244D38D841A5DFFAEB90025 /* Pods-LKDLNAModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKDLNAModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1DBCA534F789E98430E0D80DD04B1462 /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = MRDLNA/Classes/MRC/GData/GDataXMLNode.m; sourceTree = "<group>"; };
+		1DE4A2C01C1B56E13E50454F05729419 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
 		1E4083274A610D4D74FAF4F4B6F8F29A /* Pods-LKDLNAModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKDLNAModule_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2016597556D61562B9FB9DBDF712000A /* UIViewController+CurrentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CurrentViewController.m"; path = "LKMacroCategoryModule/Classes/UIViewController+CurrentViewController.m"; sourceTree = "<group>"; };
-		24AA7D883F277D27229A5AB9A0C514B5 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		24DFBD96E81C5179BFA3676E71F9EC67 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		1FBE51FDEA79EF25491445A86D4838BC /* NSString+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Custom.h"; path = "LKMacroCategoryModule/Classes/NSString+Custom.h"; sourceTree = "<group>"; };
 		2621C2AFFD541C99611EFDC45C348A95 /* Pods-LKDLNAModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKDLNAModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		269BAA17DE3AFCEF93C74F5DF6175C31 /* CLUPnPRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLUPnPRenderer.m; path = MRDLNA/Classes/ARC/DLNA/CLUPnPRenderer.m; sourceTree = "<group>"; };
-		2A1BAB44A1473AE40E14E4AE1A2E45DE /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
-		2D37DBDAD933B5C77803C1CB76F7B7D4 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
-		2D8DF8679B0708DBE72BD1C52DCCF424 /* MRDLNA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRDLNA.m; path = MRDLNA/Classes/ARC/MRDLNA.m; sourceTree = "<group>"; };
-		2EFA98353775A5A7CC1A71E2E654984B /* LGCastManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGCastManager.h; path = LKDLNAModule/Classes/LGCastManager.h; sourceTree = "<group>"; };
-		2F596DABF8C5E86810916858DE6A289E /* UIColor+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Custom.m"; path = "LKMacroCategoryModule/Classes/UIColor+Custom.m"; sourceTree = "<group>"; };
-		30FEB39EC0F2FD792235E512B283CF20 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3266951EE07C0DF9E05CF27D782E2C3E /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		3314A049CC6F4093FC8D37A7C7512769 /* CLUPnPDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPDevice.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPDevice.h; sourceTree = "<group>"; };
+		265D208ED873FE4314BEC147D507A028 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		287C6F1529E975DA2FDDF6539C6203FF /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		2FD5499628DBA11482AB1E673DEEA534 /* UIViewController+CurrentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CurrentViewController.h"; path = "LKMacroCategoryModule/Classes/UIViewController+CurrentViewController.h"; sourceTree = "<group>"; };
+		31497D5A7CF6EB78870662AA588D1C10 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		33C1A4310042329579A98C8630BACD5E /* Pods-LKDLNAModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKDLNAModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		344E6A219CF40382EFF2AC1D2C5A82F5 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
 		34C7A4DE6998BB33A1DF1F519770CC46 /* Pods-LKDLNAModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKDLNAModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		355D46DF0BD20FE97A872033C743CCE2 /* LKDLNAModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKDLNAModule-dummy.m"; sourceTree = "<group>"; };
-		39999D37F254EEE5F8A1CF94D9919E6A /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
-		3AD4EA96F63DF80DBB4E17A772A97BA3 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
-		3CB2B17BEBD339358D6AA22C91427FEA /* SetUrl.xml */ = {isa = PBXFileReference; includeInIndex = 1; name = SetUrl.xml; path = MRDLNA/Classes/ARC/DLNA/SetUrl.xml; sourceTree = "<group>"; };
+		3661CA57998D9237E370EBADB77D0AAC /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		36EB6F1FBBF68B8ED17C86E2261B0A2F /* LKMacroCategoryModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LKMacroCategoryModule-Info.plist"; sourceTree = "<group>"; };
+		379B4388AFBC317AE2F2EE8ECC2F6285 /* MRDLNA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MRDLNA-Info.plist"; sourceTree = "<group>"; };
+		37B49D0CE5408C6B7859729A37C14F3A /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		38D6A116034CEC6127BF978B12D0BA8F /* LKDLNAModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LKDLNAModule.modulemap; sourceTree = "<group>"; };
+		3BE51D19A111DE4BE3C2B0E259321481 /* CLUPnPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLUPnPServer.m; path = MRDLNA/Classes/ARC/DLNA/CLUPnPServer.m; sourceTree = "<group>"; };
+		3D1ED912EE7E77DAA874B99914342673 /* LKDLNAModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKDLNAModule-dummy.m"; sourceTree = "<group>"; };
+		3F0AE7BD7FC948617E5CD5FEB5DE6C57 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		3F0F58C7E68382C712D5224539377B02 /* Pods-LKDLNAModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKDLNAModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		42EB060076BC43CFE45C5810C4872EA8 /* MRDLNA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRDLNA-umbrella.h"; sourceTree = "<group>"; };
+		41635F22885D559B19FC10DEBBC606F0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		419E4E5EA2712F92003E9D5621B6C502 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		44890C14EEBF431BA587677954E3E4A8 /* Pods-LKDLNAModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKDLNAModule_Example-dummy.m"; sourceTree = "<group>"; };
 		45B015506ED976532EA0DB75E770CCCD /* Pods_LKDLNAModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LKDLNAModule_Example.framework; path = "Pods-LKDLNAModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		492D298EEE7EAEF5C9A60CD121C4DDCA /* LKMacroCategoryModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LKMacroCategoryModule.modulemap; sourceTree = "<group>"; };
-		497439AAAC8CF6707B20D68416C76BBD /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		4BAB92C76ECC69E3AE7F33EABB994287 /* LGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGMacros.h; path = LKMacroCategoryModule/Classes/LGMacros.h; sourceTree = "<group>"; };
-		4D06EF336B4431E91A92448008F5A1C3 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		4E0CE2A8D0AE5FE2B757074B0D5E7569 /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
-		4ED933C7671AE903FEB52D79DE01C272 /* MRDLNA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRDLNA.debug.xcconfig; sourceTree = "<group>"; };
-		4FDEFF7B5D6D7074249C83D1D9A47A96 /* UIViewController+CurrentViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+CurrentViewController.h"; path = "LKMacroCategoryModule/Classes/UIViewController+CurrentViewController.h"; sourceTree = "<group>"; };
 		502C52532EAD5B6374F46680CBE24529 /* MRDLNA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MRDLNA.framework; path = MRDLNA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5250D579D9FC23ED7BE313BB5100CAA6 /* Device.xml */ = {isa = PBXFileReference; includeInIndex = 1; name = Device.xml; path = MRDLNA/Classes/ARC/DLNA/Device.xml; sourceTree = "<group>"; };
 		53196EDBA89E7C58221613709D4D7856 /* Pods-LKDLNAModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LKDLNAModule_Example.modulemap"; sourceTree = "<group>"; };
+		533F6354BE99B670E3CB2E8CA2D21BA6 /* CLUPnPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPServer.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPServer.h; sourceTree = "<group>"; };
+		536BC79C2A287CC0116F2D706452E34B /* CLUPnPDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPDevice.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPDevice.h; sourceTree = "<group>"; };
+		53FF7627F6B28B4A21E4CC4C366C7988 /* CLUPnPRenderer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLUPnPRenderer.m; path = MRDLNA/Classes/ARC/DLNA/CLUPnPRenderer.m; sourceTree = "<group>"; };
 		547E419BE813492017AD8E374F71E823 /* Pods-LKDLNAModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKDLNAModule_Example-umbrella.h"; sourceTree = "<group>"; };
-		561678E71891581DBBDBF80863420D1E /* MRDLNA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRDLNA-prefix.pch"; sourceTree = "<group>"; };
+		56D62A21EA31CF608975CB14FB4D0CBA /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		5AC5F6DF8D70C83DB35CBAF923594F4C /* LKMacroCategoryModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKMacroCategoryModule.debug.xcconfig; sourceTree = "<group>"; };
+		5B45C773C16C2DD57090815974D71FA7 /* LKDLNAModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKDLNAModule.release.xcconfig; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DDD44C9D3689EAAF3F0613A237CC65D /* LKMacroCategoryModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKMacroCategoryModule.release.xcconfig; sourceTree = "<group>"; };
-		6160B11952B5FA7092BB314DA06757E2 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
-		636C501BD8B0D3A3206F84B4DC93FDAA /* NSString+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Custom.m"; path = "LKMacroCategoryModule/Classes/NSString+Custom.m"; sourceTree = "<group>"; };
-		63978B9AD5330EA82886B250DD259F0C /* LKMacroCategoryModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKMacroCategoryModule-prefix.pch"; sourceTree = "<group>"; };
-		6811F81465D455573E3AF57BC725669A /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
-		687147CCAA08A4C4C21D0ED0354523D0 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		6A8AA12E957828ED8590D780346612B0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5DAC903C9F2123006AC2E28F07791FA0 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+		5EB280FAF2355C4A2A893EAFEC191263 /* UIViewController+CurrentViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+CurrentViewController.m"; path = "LKMacroCategoryModule/Classes/UIViewController+CurrentViewController.m"; sourceTree = "<group>"; };
+		6316593D967A9921F067BCC43D2227F2 /* StopAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StopAction.m; path = MRDLNA/Classes/ARC/DLNA/StopAction.m; sourceTree = "<group>"; };
+		6730002A2619BC65D45D845D8AC03CCB /* MRDLNA-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRDLNA-prefix.pch"; sourceTree = "<group>"; };
+		688A16643C2A6CAC84EC9F9CF84675AE /* LKMacroCategoryModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKMacroCategoryModule-umbrella.h"; sourceTree = "<group>"; };
+		69A854AC46A34AB0A72003CA20E789AB /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		69BC87704826F91BABB935BBF8232791 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		6AAF665514F2B060EFB1AA0C6E38402F /* Pods_LKDLNAModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LKDLNAModule_Tests.framework; path = "Pods-LKDLNAModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket.framework; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FB194B114A66B8DAC045DC89793828F /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		7035D0E9532DC4D2F5B72A4475B1D95E /* Pods-LKDLNAModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKDLNAModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7040917AB71524BE07215F4105E6BD0E /* MRDLNA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRDLNA.h; path = MRDLNA/Classes/ARC/MRDLNA.h; sourceTree = "<group>"; };
 		70A61E4BF663819448CEB976C6811EDB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		7365839B0414D0CBA3C6E96DCCB2F3BF /* UIColor+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Custom.h"; path = "LKMacroCategoryModule/Classes/UIColor+Custom.h"; sourceTree = "<group>"; };
-		73D512858090998068EBF48DDB035A76 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		7355A7490028A6493F7F25225D52C809 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		74B016D83AC6D654915D3D332F2960F4 /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = MRDLNA/Classes/MRC/GData/GDataXMLNode.h; sourceTree = "<group>"; };
+		750768A2BEEF85A1CAC4FF248E357C53 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		7618B34D1868093246C24F7618ABEB7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		7688CE670826A11DD7E891D1B9CE4DFD /* MRDLNA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MRDLNA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		773B696E20D8832FCBD690C82575A3C9 /* StopAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = StopAction.m; path = MRDLNA/Classes/ARC/DLNA/StopAction.m; sourceTree = "<group>"; };
 		795E4BECFE900EAD11F0C82BA65961E7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		7EADB4906174BFF40D35B6E0AEDCD9B1 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		812600F309C5EE10E89A595EC86664AF /* MRDLNA-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MRDLNA-Info.plist"; sourceTree = "<group>"; };
-		87C80F11E0F1789EEAF8D68477FEBE27 /* CLUPnP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnP.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnP.h; sourceTree = "<group>"; };
-		884B3AEE2EB468D4D659D908FFAEE587 /* LGDLNAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGDLNAViewController.h; path = LKDLNAModule/Classes/LGDLNAViewController.h; sourceTree = "<group>"; };
-		8A4723A8F75360311BE4C47ECFCF7975 /* LKMacroCategoryModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKMacroCategoryModule-umbrella.h"; sourceTree = "<group>"; };
+		79DA47CB8AD55EE37A14E3366E13EE76 /* LKMacroCategoryModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKMacroCategoryModule-prefix.pch"; sourceTree = "<group>"; };
+		7B835D6C99B63E9138F73543D9EA2300 /* LKDLNAModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LKDLNAModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7C0D9F0DE1DF9EDB0C6CAF5BF0F7E9A4 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		7CF7F2F9C305AFF91A8565BE9AEA2730 /* CLUPnPAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLUPnPAction.m; path = MRDLNA/Classes/ARC/DLNA/CLUPnPAction.m; sourceTree = "<group>"; };
+		7D259F76A78152C06FED3EB00D4457C0 /* MRDLNA.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MRDLNA.m; path = MRDLNA/Classes/ARC/MRDLNA.m; sourceTree = "<group>"; };
+		7F8AB1D72274B7AF96CB579C5BEEAFF4 /* LKDLNAModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKDLNAModule-umbrella.h"; sourceTree = "<group>"; };
+		86A40BE30F9728FE948048A59D6B1DD0 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		890D58E5CEE64A6D10EB91B3D146778C /* LKDLNAModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LKDLNAModule-Info.plist"; sourceTree = "<group>"; };
+		89FA9202888A385329A8FE200BD84D0E /* CLUPnPAVPositionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPAVPositionInfo.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPAVPositionInfo.h; sourceTree = "<group>"; };
 		8B234CB409ADCBE6FA9539FA25DB1A95 /* LKMacroCategoryModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LKMacroCategoryModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8F3D21187450596961E6ACB19066BFDB /* CLUPnPServer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPServer.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPServer.h; sourceTree = "<group>"; };
-		8FD6AC2D6EE96C8513FA506FEED8AC90 /* CLUPnPRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPRenderer.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPRenderer.h; sourceTree = "<group>"; };
+		8CD3F7CA3AB2B74A9943AEB2640E47D6 /* CLUPnPRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPRenderer.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPRenderer.h; sourceTree = "<group>"; };
+		925054A38461DEAD8A900ACF319BD4BC /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
 		94898D789985001A527E53945065EEE1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		9606678A20AE0ADEA122670E618CF337 /* Pods-LKDLNAModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKDLNAModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		985F6D30BFF9F51878D80EA348ABE378 /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DAEA063E80EC796B64B09922D3FB8E /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		99CD38A6C4BA547810AC7B7DE2A1863D /* Pods-LKDLNAModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LKDLNAModule_Tests.modulemap"; sourceTree = "<group>"; };
-		9A5C742F94BD578AEEFF0155F9E31A72 /* CLUPnPServer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLUPnPServer.m; path = MRDLNA/Classes/ARC/DLNA/CLUPnPServer.m; sourceTree = "<group>"; };
-		9ABC24487620D33AEA733626472377CE /* CLUPnPAVPositionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLUPnPAVPositionInfo.m; path = MRDLNA/Classes/ARC/DLNA/CLUPnPAVPositionInfo.m; sourceTree = "<group>"; };
+		9C52F4CD2583957AE27119724B1FA825 /* SetUrl.xml */ = {isa = PBXFileReference; includeInIndex = 1; name = SetUrl.xml; path = MRDLNA/Classes/ARC/DLNA/SetUrl.xml; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A049DED74CC45E5712EAAAC8E1C10790 /* CLUPnPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPAction.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPAction.h; sourceTree = "<group>"; };
-		A0A4967A71ED4F1E6F7F5E7438B07B96 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		A0F0D62B62E521CFE95FE6F09F122299 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
-		A3B33BEC2AF9CCC5AD76B6076B9F41CA /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		9F080F31E1B435941D16F4DDB8299F3C /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		A4E37528E977A57C9562B30315AE4C09 /* Pods-LKDLNAModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKDLNAModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A55C95C0AE4DB33F23AA40952D061975 /* Pods-LKDLNAModule_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKDLNAModule_Tests-Info.plist"; sourceTree = "<group>"; };
-		A6B2957702A61F468C707EC08235695F /* GDataXMLNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = MRDLNA/Classes/MRC/GData/GDataXMLNode.h; sourceTree = "<group>"; };
-		A8F7A2AFD2FDAD80E1AD18FF824F931F /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
-		AC2C40896EE936932CAF6193085A221D /* LKDLNAModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKDLNAModule.debug.xcconfig; sourceTree = "<group>"; };
-		ADD4E98B422F087D5ABD85753D826AE2 /* LKMacroCategoryModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LKMacroCategoryModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B0242337B5314216D93B98F63EF35CC7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B04BFCF5E83573FF1CE173CB47D8C76D /* CLUPnPAVPositionInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPAVPositionInfo.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPAVPositionInfo.h; sourceTree = "<group>"; };
-		BBF196D9298773AA08BA90B132A1433F /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
-		BCFE56F33D2FDAD94B6D275BC10EB6B7 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
-		C22F2A1C990A980F0A74AA63DC1BABB1 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
-		C35A9507D87731D74C02513E074DEC17 /* LKDLNAModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LKDLNAModule.modulemap; sourceTree = "<group>"; };
-		C7DCD2C36525B3796308EE4ADA313A2B /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
-		C962DEE47381737B372E246D7A3B5AE4 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
-		CCF2AB7AD91D5A20A0EDEA20E871ACF2 /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		A578FB61DEC5C68D767D96578C81A594 /* UIColor+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Custom.h"; path = "LKMacroCategoryModule/Classes/UIColor+Custom.h"; sourceTree = "<group>"; };
+		A66613964BE14242B525DEC429FF2663 /* MRDLNA-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MRDLNA-umbrella.h"; sourceTree = "<group>"; };
+		A7732204071FFE2908A8BB40D7528899 /* NSString+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Custom.m"; path = "LKMacroCategoryModule/Classes/NSString+Custom.m"; sourceTree = "<group>"; };
+		A8227979CED83EA75D037F697DF50D44 /* LKMacroCategoryModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LKMacroCategoryModule-dummy.m"; sourceTree = "<group>"; };
+		AD610DE3CA237418A8F7EF7A23A46AA6 /* LKDLNAModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKDLNAModule.debug.xcconfig; sourceTree = "<group>"; };
+		B1370B4C640E8AB06A1F5C5CD3F5A7F2 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
+		B1AF0DFB11C516A10454C982C8E7BA57 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		B6E3DF26F45A659DD029191E33E76C19 /* CLUPnPAVPositionInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLUPnPAVPositionInfo.m; path = MRDLNA/Classes/ARC/DLNA/CLUPnPAVPositionInfo.m; sourceTree = "<group>"; };
+		B7E099857FEE87D43071407A0774DD61 /* LGCastManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGCastManager.h; path = LKDLNAModule/Classes/LGCastManager.h; sourceTree = "<group>"; };
+		BDFF5C09D6C405158247C43061C39914 /* CLUPnPResponseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPResponseDelegate.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPResponseDelegate.h; sourceTree = "<group>"; };
+		BEB0A8A87E3FC304E754CB9399E35269 /* CLUPnPDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLUPnPDevice.m; path = MRDLNA/Classes/ARC/DLNA/CLUPnPDevice.m; sourceTree = "<group>"; };
+		C18BF922B6DD2DD9BADA0B3B5517F5F7 /* CLUPnPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPAction.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPAction.h; sourceTree = "<group>"; };
+		C19F5C9A8368BC31F319011F9DA90782 /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		C271FDB5108191EBF2090CCA61ADC719 /* LGMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGMacros.h; path = LKMacroCategoryModule/Classes/LGMacros.h; sourceTree = "<group>"; };
+		C27716F455324A40AD5E6A7DBD829587 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		C2BC0A66454366BCCCB30B116F308927 /* LGCastManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGCastManager.m; path = LKDLNAModule/Classes/LGCastManager.m; sourceTree = "<group>"; };
+		C66E31B6FD62CBFBB60BD39D09FB9BE8 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CA4815F3CC6C5E7C4C4514F0AF6606EA /* MRDLNA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MRDLNA.modulemap; sourceTree = "<group>"; };
+		CACB3991F521ACCDDB823A77A102E077 /* MRDLNA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRDLNA.debug.xcconfig; sourceTree = "<group>"; };
+		CDFBA491DD8976682AC72B6459E7F503 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
 		CF22A6D384CA81D131D92C9FEBF5A330 /* LKMacroCategoryModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LKMacroCategoryModule.framework; path = LKMacroCategoryModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D07C79512D0070CC18FDABD04D22E925 /* MRDLNA.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MRDLNA.modulemap; sourceTree = "<group>"; };
-		D3F6141A1297C340D5396E946B741C61 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		D7C9409099F7422CB15458C7E2F501A6 /* MRDLNA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRDLNA.release.xcconfig; sourceTree = "<group>"; };
+		CF2BD2E7BD1BB8772030BCC774189459 /* MRDLNA.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MRDLNA.h; path = MRDLNA/Classes/ARC/MRDLNA.h; sourceTree = "<group>"; };
+		CF2C4BD3F1B189AB47F8C4BDAF25CB70 /* LGDLNAViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGDLNAViewController.h; path = LKDLNAModule/Classes/LGDLNAViewController.h; sourceTree = "<group>"; };
+		D0BEB33F924ED1448DCCED3EF91BD6D5 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		D7D1AD3B55337A65CC6D7CE008E72FBA /* LKDLNAModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LKDLNAModule.framework; path = LKDLNAModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF239D80C04BE3E2CE4DD53AAE25B1B0 /* LKMacroCategoryModule-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LKMacroCategoryModule-Info.plist"; sourceTree = "<group>"; };
-		DF2D8233DA7F187F611B2FB3025982D1 /* LKMacroCategoryModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LKMacroCategoryModule.debug.xcconfig; sourceTree = "<group>"; };
-		E3A0D1CA44B79BE80AE1FC3DC6EE3F8C /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		E67D8C5EA7ABACD5A8BB7B9B60D365D3 /* GDataXMLNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = MRDLNA/Classes/MRC/GData/GDataXMLNode.m; sourceTree = "<group>"; };
-		E6BE177EC6C004459BAD957F9E502E1B /* LKDLNAModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKDLNAModule-prefix.pch"; sourceTree = "<group>"; };
+		D889E898CD50BA02F5EEFE27092726F5 /* UIColor+Custom.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Custom.m"; path = "LKMacroCategoryModule/Classes/UIColor+Custom.m"; sourceTree = "<group>"; };
+		D9D914B5FFCDEF66D0A41F2DF9263551 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DA38C614A5136CE60F752ED23B4E0B40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DC54AE7A58FCB7735D42ED4004C7B6B5 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		DC613C07C364A6B6F99380411A4918EB /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		DD6CB89537E34BB7B4B3097A0805C839 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		DE062BEF4F7E5654E3E3999B52D2CCBD /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		E442BCA96CEA92BB7A72AF70AA71E708 /* StopAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = StopAction.h; path = MRDLNA/Classes/ARC/DLNA/StopAction.h; sourceTree = "<group>"; };
+		E57EDFD5ADAA94BBD256E11951C93A6D /* MRDLNA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRDLNA-dummy.m"; sourceTree = "<group>"; };
 		E7523145351348B7297B113AB51F0660 /* Pods-LKDLNAModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKDLNAModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E7A75013AAD321910F97DA08D0632879 /* CLUPnPResponseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnPResponseDelegate.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnPResponseDelegate.h; sourceTree = "<group>"; };
-		E9D547C68899DD8AC850815FD3C00A47 /* CLUPnPDevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLUPnPDevice.m; path = MRDLNA/Classes/ARC/DLNA/CLUPnPDevice.m; sourceTree = "<group>"; };
-		E9D7A36083579D04F07AC9888530FF76 /* NSString+Custom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Custom.h"; path = "LKMacroCategoryModule/Classes/NSString+Custom.h"; sourceTree = "<group>"; };
-		EC0E6F84168C1EAE2CC92B4F28235637 /* LGDLNAViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGDLNAViewController.m; path = LKDLNAModule/Classes/LGDLNAViewController.m; sourceTree = "<group>"; };
+		EA7955F81F94C475CC770A3C9A79D246 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		EB421000984BAB6292B12E8732C8A4B2 /* CLUPnP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLUPnP.h; path = MRDLNA/Classes/ARC/DLNA/CLUPnP.h; sourceTree = "<group>"; };
 		EECF549CF3DDA83C8EB0F549EC6B847C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		F3972D8592E191D1EC06D9BBD9AD81A3 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
-		F4C28D623FFC05263B83473629A8E4EC /* LKDLNAModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LKDLNAModule-umbrella.h"; sourceTree = "<group>"; };
 		F581EBA201B5F836E6BDCB178D21A638 /* Pods-LKDLNAModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKDLNAModule_Tests-dummy.m"; sourceTree = "<group>"; };
-		F84A881FCD7795ED7D56C0871AA0ED49 /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
-		FBDE0CC3723DA651E133530F674B70CF /* LKDLNAModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LKDLNAModule.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F89011B1B49A5D16E8448631E5E11896 /* MRDLNA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MRDLNA.release.xcconfig; sourceTree = "<group>"; };
 		FC8EEF6383207A6CA3D49ED0AB294955 /* Pods-LKDLNAModule_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKDLNAModule_Example-Info.plist"; sourceTree = "<group>"; };
-		FE3E86A5D7E2421B6900754EFB389C13 /* MRDLNA-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MRDLNA-dummy.m"; sourceTree = "<group>"; };
-		FFB5F60B30CFD14078F1E1FC24944996 /* CLUPnPAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLUPnPAction.m; path = MRDLNA/Classes/ARC/DLNA/CLUPnPAction.m; sourceTree = "<group>"; };
-		FFE202605E144D96C3C1A4D683FDDFFD /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		FF81363FF8FFF939BA18F24303A875CF /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -304,19 +301,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F6FAA5DFE197D240147ECAE2EA9E24A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6B0E93CFB23404545FAC1553B4BC6D4 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		2C569B028F3FB23AC38C9EF56F08883F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A9916BE154D152B2B19993DB95D82CC9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6403AABDFA80035511303822257F6398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0532AFD94731C735ED94216721ADCB1D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DE32EED7949E64FB81F65BA73E19A34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D51F2809A889E16FD5BD86888983987 /* CocoaAsyncSocket.framework in Frameworks */,
+				172A681AF51C30747D1055B8444F16C8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,79 +345,95 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB22C7DD06BC3E74005CCED4C5AA2C4F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C89DDBF337E095F0D4817E78BC27019B /* CocoaAsyncSocket.framework in Frameworks */,
-				A43E2C3DA79BAEB1F68F78C6B279379D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		054DDEEC09720923BDBC87012A06D675 /* Pod */ = {
+		1286CA92AEABA89F02E99140B9E25A33 /* LKDLNAModule */ = {
 			isa = PBXGroup;
 			children = (
-				6A8AA12E957828ED8590D780346612B0 /* LICENSE */,
-				ADD4E98B422F087D5ABD85753D826AE2 /* LKMacroCategoryModule.podspec */,
-				B0242337B5314216D93B98F63EF35CC7 /* README.md */,
+				B7E099857FEE87D43071407A0774DD61 /* LGCastManager.h */,
+				C2BC0A66454366BCCCB30B116F308927 /* LGCastManager.m */,
+				CF2C4BD3F1B189AB47F8C4BDAF25CB70 /* LGDLNAViewController.h */,
+				170CFC81B7C0811046B4F2C682FA80F6 /* LGDLNAViewController.m */,
+				9C06C44F12D6DFF26EBAA388AE718A47 /* Pod */,
+				9DBCE5DEBE57A3E843C57E5E0CA85783 /* Support Files */,
 			);
-			name = Pod;
+			name = LKDLNAModule;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		19B7B4833D57804EF10268E9EBE1B68C /* Core */ = {
+		1A053D30F32EDD9058C6AD7925C5C10C /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
-				0C146B580740862ED0843DCBBFF951B1 /* FBSnapshotTestCase.h */,
-				A0A4967A71ED4F1E6F7F5E7438B07B96 /* FBSnapshotTestCase.m */,
-				24AA7D883F277D27229A5AB9A0C514B5 /* FBSnapshotTestCasePlatform.h */,
-				497439AAAC8CF6707B20D68416C76BBD /* FBSnapshotTestCasePlatform.m */,
-				BBF196D9298773AA08BA90B132A1433F /* FBSnapshotTestController.h */,
-				24DFBD96E81C5179BFA3676E71F9EC67 /* FBSnapshotTestController.m */,
-				CCF2AB7AD91D5A20A0EDEA20E871ACF2 /* UIApplication+StrictKeyWindow.h */,
-				FFE202605E144D96C3C1A4D683FDDFFD /* UIApplication+StrictKeyWindow.m */,
-				0B2B8EAD65D72316078C3CDFA09BDFAD /* UIImage+Compare.h */,
-				A0F0D62B62E521CFE95FE6F09F122299 /* UIImage+Compare.m */,
-				687147CCAA08A4C4C21D0ED0354523D0 /* UIImage+Diff.h */,
-				4D06EF336B4431E91A92448008F5A1C3 /* UIImage+Diff.m */,
-				D3F6141A1297C340D5396E946B741C61 /* UIImage+Snapshot.h */,
-				2D37DBDAD933B5C77803C1CB76F7B7D4 /* UIImage+Snapshot.m */,
+				419E4E5EA2712F92003E9D5621B6C502 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		1FAF1F4758383224FC79D6B1D3472AB6 /* MRDLNA */ = {
+			isa = PBXGroup;
+			children = (
+				EB421000984BAB6292B12E8732C8A4B2 /* CLUPnP.h */,
+				C18BF922B6DD2DD9BADA0B3B5517F5F7 /* CLUPnPAction.h */,
+				7CF7F2F9C305AFF91A8565BE9AEA2730 /* CLUPnPAction.m */,
+				89FA9202888A385329A8FE200BD84D0E /* CLUPnPAVPositionInfo.h */,
+				B6E3DF26F45A659DD029191E33E76C19 /* CLUPnPAVPositionInfo.m */,
+				536BC79C2A287CC0116F2D706452E34B /* CLUPnPDevice.h */,
+				BEB0A8A87E3FC304E754CB9399E35269 /* CLUPnPDevice.m */,
+				8CD3F7CA3AB2B74A9943AEB2640E47D6 /* CLUPnPRenderer.h */,
+				53FF7627F6B28B4A21E4CC4C366C7988 /* CLUPnPRenderer.m */,
+				BDFF5C09D6C405158247C43061C39914 /* CLUPnPResponseDelegate.h */,
+				533F6354BE99B670E3CB2E8CA2D21BA6 /* CLUPnPServer.h */,
+				3BE51D19A111DE4BE3C2B0E259321481 /* CLUPnPServer.m */,
+				5250D579D9FC23ED7BE313BB5100CAA6 /* Device.xml */,
+				CF2BD2E7BD1BB8772030BCC774189459 /* MRDLNA.h */,
+				7D259F76A78152C06FED3EB00D4457C0 /* MRDLNA.m */,
+				9C52F4CD2583957AE27119724B1FA825 /* SetUrl.xml */,
+				E442BCA96CEA92BB7A72AF70AA71E708 /* StopAction.h */,
+				6316593D967A9921F067BCC43D2227F2 /* StopAction.m */,
+				355FA3A283A2961042953D28363F888C /* MRC */,
+				C873051D372BCC1BF4492F6DB9D8676B /* Support Files */,
+			);
+			name = MRDLNA;
+			path = MRDLNA;
+			sourceTree = "<group>";
+		};
+		2A76301160E38F098EE577A4BB04A39D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1286CA92AEABA89F02E99140B9E25A33 /* LKDLNAModule */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		355FA3A283A2961042953D28363F888C /* MRC */ = {
+			isa = PBXGroup;
+			children = (
+				74B016D83AC6D654915D3D332F2960F4 /* GDataXMLNode.h */,
+				1DBCA534F789E98430E0D80DD04B1462 /* GDataXMLNode.m */,
+			);
+			name = MRC;
+			sourceTree = "<group>";
+		};
+		38F768481019D8EA993AD1C3F0B8E7DF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3F0AE7BD7FC948617E5CD5FEB5DE6C57 /* FBSnapshotTestCase.h */,
+				EA7955F81F94C475CC770A3C9A79D246 /* FBSnapshotTestCase.m */,
+				31497D5A7CF6EB78870662AA588D1C10 /* FBSnapshotTestCasePlatform.h */,
+				6FB194B114A66B8DAC045DC89793828F /* FBSnapshotTestCasePlatform.m */,
+				7C0D9F0DE1DF9EDB0C6CAF5BF0F7E9A4 /* FBSnapshotTestController.h */,
+				37B49D0CE5408C6B7859729A37C14F3A /* FBSnapshotTestController.m */,
+				DE062BEF4F7E5654E3E3999B52D2CCBD /* UIApplication+StrictKeyWindow.h */,
+				69BC87704826F91BABB935BBF8232791 /* UIApplication+StrictKeyWindow.m */,
+				750768A2BEEF85A1CAC4FF248E357C53 /* UIImage+Compare.h */,
+				C27716F455324A40AD5E6A7DBD829587 /* UIImage+Compare.m */,
+				56D62A21EA31CF608975CB14FB4D0CBA /* UIImage+Diff.h */,
+				D0BEB33F924ED1448DCCED3EF91BD6D5 /* UIImage+Diff.m */,
+				9F080F31E1B435941D16F4DDB8299F3C /* UIImage+Snapshot.h */,
+				86A40BE30F9728FE948048A59D6B1DD0 /* UIImage+Snapshot.m */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		2AA1742CD34F9D9E7B39C76236645912 /* LKMacroCategoryModule */ = {
-			isa = PBXGroup;
-			children = (
-				4BAB92C76ECC69E3AE7F33EABB994287 /* LGMacros.h */,
-				E9D7A36083579D04F07AC9888530FF76 /* NSString+Custom.h */,
-				636C501BD8B0D3A3206F84B4DC93FDAA /* NSString+Custom.m */,
-				7365839B0414D0CBA3C6E96DCCB2F3BF /* UIColor+Custom.h */,
-				2F596DABF8C5E86810916858DE6A289E /* UIColor+Custom.m */,
-				4FDEFF7B5D6D7074249C83D1D9A47A96 /* UIViewController+CurrentViewController.h */,
-				2016597556D61562B9FB9DBDF712000A /* UIViewController+CurrentViewController.m */,
-				054DDEEC09720923BDBC87012A06D675 /* Pod */,
-				4AC64DA5793BBE65054C42C4678775FC /* Support Files */,
-			);
-			name = LKMacroCategoryModule;
-			path = ../../../LKMacroCategoryModule;
-			sourceTree = "<group>";
-		};
-		2D0DC7B4218EC8AB24978CA980B94DF9 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6811F81465D455573E3AF57BC725669A /* CocoaAsyncSocket.modulemap */,
-				73D512858090998068EBF48DDB035A76 /* CocoaAsyncSocket-dummy.m */,
-				3AD4EA96F63DF80DBB4E17A772A97BA3 /* CocoaAsyncSocket-Info.plist */,
-				2A1BAB44A1473AE40E14E4AE1A2E45DE /* CocoaAsyncSocket-prefix.pch */,
-				C7DCD2C36525B3796308EE4ADA313A2B /* CocoaAsyncSocket-umbrella.h */,
-				F84A881FCD7795ED7D56C0871AA0ED49 /* CocoaAsyncSocket.debug.xcconfig */,
-				4E0CE2A8D0AE5FE2B757074B0D5E7569 /* CocoaAsyncSocket.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CocoaAsyncSocket";
 			sourceTree = "<group>";
 		};
 		3A9BF4CA69D260C7280F29D3881F1BD6 /* Targets Support Files */ = {
@@ -421,31 +443,6 @@
 				B6002D7C4359D3A2D86F01AB88B34338 /* Pods-LKDLNAModule_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		4934C389DFB11993ABBFEB3E0DB2C651 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0DC75D18CE4B1CAE5BE50ADAAE600058 /* LICENSE */,
-				FBDE0CC3723DA651E133530F674B70CF /* LKDLNAModule.podspec */,
-				30FEB39EC0F2FD792235E512B283CF20 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		4AC64DA5793BBE65054C42C4678775FC /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				492D298EEE7EAEF5C9A60CD121C4DDCA /* LKMacroCategoryModule.modulemap */,
-				06816002E5EC60B84B4E676CB0F1AE39 /* LKMacroCategoryModule-dummy.m */,
-				DF239D80C04BE3E2CE4DD53AAE25B1B0 /* LKMacroCategoryModule-Info.plist */,
-				63978B9AD5330EA82886B250DD259F0C /* LKMacroCategoryModule-prefix.pch */,
-				8A4723A8F75360311BE4C47ECFCF7975 /* LKMacroCategoryModule-umbrella.h */,
-				DF2D8233DA7F187F611B2FB3025982D1 /* LKMacroCategoryModule.debug.xcconfig */,
-				5DDD44C9D3689EAAF3F0613A237CC65D /* LKMacroCategoryModule.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../LKDLNAModule/Example/Pods/Target Support Files/LKMacroCategoryModule";
 			sourceTree = "<group>";
 		};
 		5EA455C88426127027A556C1B8C89026 /* Frameworks */ = {
@@ -473,69 +470,125 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		90EDCD5835682156EB8F293789833A95 /* MRDLNA */ = {
+		68C3DF56A94491CB3C70BBD913FCDD82 /* LKMacroCategoryModule */ = {
 			isa = PBXGroup;
 			children = (
-				87C80F11E0F1789EEAF8D68477FEBE27 /* CLUPnP.h */,
-				A049DED74CC45E5712EAAAC8E1C10790 /* CLUPnPAction.h */,
-				FFB5F60B30CFD14078F1E1FC24944996 /* CLUPnPAction.m */,
-				B04BFCF5E83573FF1CE173CB47D8C76D /* CLUPnPAVPositionInfo.h */,
-				9ABC24487620D33AEA733626472377CE /* CLUPnPAVPositionInfo.m */,
-				3314A049CC6F4093FC8D37A7C7512769 /* CLUPnPDevice.h */,
-				E9D547C68899DD8AC850815FD3C00A47 /* CLUPnPDevice.m */,
-				8FD6AC2D6EE96C8513FA506FEED8AC90 /* CLUPnPRenderer.h */,
-				269BAA17DE3AFCEF93C74F5DF6175C31 /* CLUPnPRenderer.m */,
-				E7A75013AAD321910F97DA08D0632879 /* CLUPnPResponseDelegate.h */,
-				8F3D21187450596961E6ACB19066BFDB /* CLUPnPServer.h */,
-				9A5C742F94BD578AEEFF0155F9E31A72 /* CLUPnPServer.m */,
-				09445B065A34E1B16F5D81E4403A1083 /* Device.xml */,
-				7040917AB71524BE07215F4105E6BD0E /* MRDLNA.h */,
-				2D8DF8679B0708DBE72BD1C52DCCF424 /* MRDLNA.m */,
-				3CB2B17BEBD339358D6AA22C91427FEA /* SetUrl.xml */,
-				1D3168DDF1276CBD89648FF52F632245 /* StopAction.h */,
-				773B696E20D8832FCBD690C82575A3C9 /* StopAction.m */,
-				B0226EBABAA951BF11318D73F08BEBA1 /* MRC */,
-				D60E8DF63425C88294B6C69012AF90CD /* Support Files */,
+				C271FDB5108191EBF2090CCA61ADC719 /* LGMacros.h */,
+				1FBE51FDEA79EF25491445A86D4838BC /* NSString+Custom.h */,
+				A7732204071FFE2908A8BB40D7528899 /* NSString+Custom.m */,
+				A578FB61DEC5C68D767D96578C81A594 /* UIColor+Custom.h */,
+				D889E898CD50BA02F5EEFE27092726F5 /* UIColor+Custom.m */,
+				2FD5499628DBA11482AB1E673DEEA534 /* UIViewController+CurrentViewController.h */,
+				5EB280FAF2355C4A2A893EAFEC191263 /* UIViewController+CurrentViewController.m */,
+				A1D244748B3C70E22356ECF3A2312C33 /* Support Files */,
 			);
-			name = MRDLNA;
-			path = MRDLNA;
+			name = LKMacroCategoryModule;
+			path = LKMacroCategoryModule;
 			sourceTree = "<group>";
 		};
-		961D6BED77C01E463C7C6E6540CE8A33 /* CocoaAsyncSocket */ = {
+		7595199160BA4A5E1FAB803C11474256 /* CocoaAsyncSocket */ = {
 			isa = PBXGroup;
 			children = (
-				39999D37F254EEE5F8A1CF94D9919E6A /* GCDAsyncSocket.h */,
-				6160B11952B5FA7092BB314DA06757E2 /* GCDAsyncSocket.m */,
-				344E6A219CF40382EFF2AC1D2C5A82F5 /* GCDAsyncUdpSocket.h */,
-				BCFE56F33D2FDAD94B6D275BC10EB6B7 /* GCDAsyncUdpSocket.m */,
-				2D0DC7B4218EC8AB24978CA980B94DF9 /* Support Files */,
+				DC54AE7A58FCB7735D42ED4004C7B6B5 /* GCDAsyncSocket.h */,
+				B1AF0DFB11C516A10454C982C8E7BA57 /* GCDAsyncSocket.m */,
+				DD6CB89537E34BB7B4B3097A0805C839 /* GCDAsyncUdpSocket.h */,
+				CDFBA491DD8976682AC72B6459E7F503 /* GCDAsyncUdpSocket.m */,
+				A0B9EAA84569F374FDB27B92F30E88EE /* Support Files */,
 			);
 			name = CocoaAsyncSocket;
 			path = CocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
-		964FAEF7ABD44E55915F5C161125BE99 /* Support Files */ = {
+		78C2ACD4D62472FE9124E9CD3987E696 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C35A9507D87731D74C02513E074DEC17 /* LKDLNAModule.modulemap */,
-				355D46DF0BD20FE97A872033C743CCE2 /* LKDLNAModule-dummy.m */,
-				0C553DE865392A7C6E1015EC27436CA8 /* LKDLNAModule-Info.plist */,
-				E6BE177EC6C004459BAD957F9E502E1B /* LKDLNAModule-prefix.pch */,
-				F4C28D623FFC05263B83473629A8E4EC /* LKDLNAModule-umbrella.h */,
-				AC2C40896EE936932CAF6193085A221D /* LKDLNAModule.debug.xcconfig */,
-				025C9FA3F35897CC18FCAD1E00B565CE /* LKDLNAModule.release.xcconfig */,
+				7595199160BA4A5E1FAB803C11474256 /* CocoaAsyncSocket */,
+				B4A468B4E0AC0C77EB7E4DD2AFA181E5 /* FBSnapshotTestCase */,
+				68C3DF56A94491CB3C70BBD913FCDD82 /* LKMacroCategoryModule */,
+				1FAF1F4758383224FC79D6B1D3472AB6 /* MRDLNA */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C06C44F12D6DFF26EBAA388AE718A47 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D9D914B5FFCDEF66D0A41F2DF9263551 /* LICENSE */,
+				7B835D6C99B63E9138F73543D9EA2300 /* LKDLNAModule.podspec */,
+				DA38C614A5136CE60F752ED23B4E0B40 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9DBCE5DEBE57A3E843C57E5E0CA85783 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38D6A116034CEC6127BF978B12D0BA8F /* LKDLNAModule.modulemap */,
+				3D1ED912EE7E77DAA874B99914342673 /* LKDLNAModule-dummy.m */,
+				890D58E5CEE64A6D10EB91B3D146778C /* LKDLNAModule-Info.plist */,
+				08EF5D19EEE69F0A35FE859E6347B281 /* LKDLNAModule-prefix.pch */,
+				7F8AB1D72274B7AF96CB579C5BEEAFF4 /* LKDLNAModule-umbrella.h */,
+				AD610DE3CA237418A8F7EF7A23A46AA6 /* LKDLNAModule.debug.xcconfig */,
+				5B45C773C16C2DD57090815974D71FA7 /* LKDLNAModule.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/LKDLNAModule";
 			sourceTree = "<group>";
 		};
-		B0226EBABAA951BF11318D73F08BEBA1 /* MRC */ = {
+		A0B9EAA84569F374FDB27B92F30E88EE /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A6B2957702A61F468C707EC08235695F /* GDataXMLNode.h */,
-				E67D8C5EA7ABACD5A8BB7B9B60D365D3 /* GDataXMLNode.m */,
+				FF81363FF8FFF939BA18F24303A875CF /* CocoaAsyncSocket.modulemap */,
+				C19F5C9A8368BC31F319011F9DA90782 /* CocoaAsyncSocket-dummy.m */,
+				3661CA57998D9237E370EBADB77D0AAC /* CocoaAsyncSocket-Info.plist */,
+				1DE4A2C01C1B56E13E50454F05729419 /* CocoaAsyncSocket-prefix.pch */,
+				287C6F1529E975DA2FDDF6539C6203FF /* CocoaAsyncSocket-umbrella.h */,
+				69A854AC46A34AB0A72003CA20E789AB /* CocoaAsyncSocket.debug.xcconfig */,
+				925054A38461DEAD8A900ACF319BD4BC /* CocoaAsyncSocket.release.xcconfig */,
 			);
-			name = MRC;
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		A1D244748B3C70E22356ECF3A2312C33 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				061C5DFEA00DB30D8A8040C9E0D363FD /* LKMacroCategoryModule.modulemap */,
+				A8227979CED83EA75D037F697DF50D44 /* LKMacroCategoryModule-dummy.m */,
+				36EB6F1FBBF68B8ED17C86E2261B0A2F /* LKMacroCategoryModule-Info.plist */,
+				79DA47CB8AD55EE37A14E3366E13EE76 /* LKMacroCategoryModule-prefix.pch */,
+				688A16643C2A6CAC84EC9F9CF84675AE /* LKMacroCategoryModule-umbrella.h */,
+				5AC5F6DF8D70C83DB35CBAF923594F4C /* LKMacroCategoryModule.debug.xcconfig */,
+				14D38FC23131893C81F0B07DEF09C04A /* LKMacroCategoryModule.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LKMacroCategoryModule";
+			sourceTree = "<group>";
+		};
+		A3C6544FFAD9C86A1BD6B4C8402F1224 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C66E31B6FD62CBFBB60BD39D09FB9BE8 /* FBSnapshotTestCase.modulemap */,
+				7355A7490028A6493F7F25225D52C809 /* FBSnapshotTestCase-dummy.m */,
+				B1370B4C640E8AB06A1F5C5CD3F5A7F2 /* FBSnapshotTestCase-Info.plist */,
+				265D208ED873FE4314BEC147D507A028 /* FBSnapshotTestCase-prefix.pch */,
+				5DAC903C9F2123006AC2E28F07791FA0 /* FBSnapshotTestCase-umbrella.h */,
+				DC613C07C364A6B6F99380411A4918EB /* FBSnapshotTestCase.debug.xcconfig */,
+				41635F22885D559B19FC10DEBBC606F0 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		B4A468B4E0AC0C77EB7E4DD2AFA181E5 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				38F768481019D8EA993AD1C3F0B8E7DF /* Core */,
+				A3C6544FFAD9C86A1BD6B4C8402F1224 /* Support Files */,
+				1A053D30F32EDD9058C6AD7925C5C10C /* SwiftSupport */,
+			);
+			name = FBSnapshotTestCase;
+			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
 		B6002D7C4359D3A2D86F01AB88B34338 /* Pods-LKDLNAModule_Tests */ = {
@@ -568,64 +621,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		BE792C2A069596484F6B4999B4803788 /* FBSnapshotTestCase */ = {
+		C873051D372BCC1BF4492F6DB9D8676B /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				19B7B4833D57804EF10268E9EBE1B68C /* Core */,
-				F7859ABE151C6E831AE1DCC31BD95F8F /* Support Files */,
-				C63615C92FD377783238DAF1D30F7736 /* SwiftSupport */,
+				CA4815F3CC6C5E7C4C4514F0AF6606EA /* MRDLNA.modulemap */,
+				E57EDFD5ADAA94BBD256E11951C93A6D /* MRDLNA-dummy.m */,
+				379B4388AFBC317AE2F2EE8ECC2F6285 /* MRDLNA-Info.plist */,
+				6730002A2619BC65D45D845D8AC03CCB /* MRDLNA-prefix.pch */,
+				A66613964BE14242B525DEC429FF2663 /* MRDLNA-umbrella.h */,
+				CACB3991F521ACCDDB823A77A102E077 /* MRDLNA.debug.xcconfig */,
+				F89011B1B49A5D16E8448631E5E11896 /* MRDLNA.release.xcconfig */,
 			);
-			name = FBSnapshotTestCase;
-			path = FBSnapshotTestCase;
-			sourceTree = "<group>";
-		};
-		C63615C92FD377783238DAF1D30F7736 /* SwiftSupport */ = {
-			isa = PBXGroup;
-			children = (
-				A3B33BEC2AF9CCC5AD76B6076B9F41CA /* SwiftSupport.swift */,
-			);
-			name = SwiftSupport;
+			name = "Support Files";
+			path = "../Target Support Files/MRDLNA";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				EC041AEF023F0F0386700CF0E2EA10B4 /* Development Pods */,
+				2A76301160E38F098EE577A4BB04A39D /* Development Pods */,
 				5EA455C88426127027A556C1B8C89026 /* Frameworks */,
-				DD31A16F1E78C6554E8EF1DDC6CC1CC8 /* Pods */,
+				78C2ACD4D62472FE9124E9CD3987E696 /* Pods */,
 				611D1FC97926C724BB4A281D00D01BC9 /* Products */,
 				3A9BF4CA69D260C7280F29D3881F1BD6 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D3D3ABFD9C7E1908E6352A96537FC42E /* LKDLNAModule */ = {
-			isa = PBXGroup;
-			children = (
-				2EFA98353775A5A7CC1A71E2E654984B /* LGCastManager.h */,
-				0E657373824AEE5B0C985B3FBD5BDCFA /* LGCastManager.m */,
-				884B3AEE2EB468D4D659D908FFAEE587 /* LGDLNAViewController.h */,
-				EC0E6F84168C1EAE2CC92B4F28235637 /* LGDLNAViewController.m */,
-				4934C389DFB11993ABBFEB3E0DB2C651 /* Pod */,
-				964FAEF7ABD44E55915F5C161125BE99 /* Support Files */,
-			);
-			name = LKDLNAModule;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		D60E8DF63425C88294B6C69012AF90CD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D07C79512D0070CC18FDABD04D22E925 /* MRDLNA.modulemap */,
-				FE3E86A5D7E2421B6900754EFB389C13 /* MRDLNA-dummy.m */,
-				812600F309C5EE10E89A595EC86664AF /* MRDLNA-Info.plist */,
-				561678E71891581DBBDBF80863420D1E /* MRDLNA-prefix.pch */,
-				42EB060076BC43CFE45C5810C4872EA8 /* MRDLNA-umbrella.h */,
-				4ED933C7671AE903FEB52D79DE01C272 /* MRDLNA.debug.xcconfig */,
-				D7C9409099F7422CB15458C7E2F501A6 /* MRDLNA.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MRDLNA";
 			sourceTree = "<group>";
 		};
 		DD2ACF23E43E984C376AF665DD84B7E5 /* Pods-LKDLNAModule_Example */ = {
@@ -645,52 +665,24 @@
 			path = "Target Support Files/Pods-LKDLNAModule_Example";
 			sourceTree = "<group>";
 		};
-		DD31A16F1E78C6554E8EF1DDC6CC1CC8 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				961D6BED77C01E463C7C6E6540CE8A33 /* CocoaAsyncSocket */,
-				BE792C2A069596484F6B4999B4803788 /* FBSnapshotTestCase */,
-				90EDCD5835682156EB8F293789833A95 /* MRDLNA */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		EC041AEF023F0F0386700CF0E2EA10B4 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D3D3ABFD9C7E1908E6352A96537FC42E /* LKDLNAModule */,
-				2AA1742CD34F9D9E7B39C76236645912 /* LKMacroCategoryModule */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F7859ABE151C6E831AE1DCC31BD95F8F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7EADB4906174BFF40D35B6E0AEDCD9B1 /* FBSnapshotTestCase.modulemap */,
-				3266951EE07C0DF9E05CF27D782E2C3E /* FBSnapshotTestCase-dummy.m */,
-				F3972D8592E191D1EC06D9BBD9AD81A3 /* FBSnapshotTestCase-Info.plist */,
-				E3A0D1CA44B79BE80AE1FC3DC6EE3F8C /* FBSnapshotTestCase-prefix.pch */,
-				C962DEE47381737B372E246D7A3B5AE4 /* FBSnapshotTestCase-umbrella.h */,
-				C22F2A1C990A980F0A74AA63DC1BABB1 /* FBSnapshotTestCase.debug.xcconfig */,
-				A8F7A2AFD2FDAD80E1AD18FF824F931F /* FBSnapshotTestCase.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FBSnapshotTestCase";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1A86514CBC3C48EB464BBF294B47C31E /* Headers */ = {
+		24B4763E773563516AE4600F336DFC92 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B3BCD8A13D071549453E833CD89D714 /* LGMacros.h in Headers */,
-				19AA6F579D301634F8F78C3F300CB101 /* LKMacroCategoryModule-umbrella.h in Headers */,
-				56E2828E3B14D27307702A74720CED96 /* NSString+Custom.h in Headers */,
-				F570F55FF88909EF0693ADFF6C523DB6 /* UIColor+Custom.h in Headers */,
-				C18E813B7C082543AE178BAF67A2A585 /* UIViewController+CurrentViewController.h in Headers */,
+				C50AEC2B98E25986BC86668F39359D04 /* CLUPnP.h in Headers */,
+				EDE0D80CBC5110CAC38AA5794FE8E6CF /* CLUPnPAction.h in Headers */,
+				A6FAA8790B8F89FEF26213100E474C78 /* CLUPnPAVPositionInfo.h in Headers */,
+				6377F38881CFAFB44B8C1DCE9EF16EC6 /* CLUPnPDevice.h in Headers */,
+				6AB2E6964A138F145CFDC6955FDAFDCD /* CLUPnPRenderer.h in Headers */,
+				DBF33E9F3B7CF60B57E43E706AA579B9 /* CLUPnPResponseDelegate.h in Headers */,
+				CEDB7CAFAAAFEB8F74849741E509BD50 /* CLUPnPServer.h in Headers */,
+				F6C580AEA5BB7581F428D7B86204FF47 /* GDataXMLNode.h in Headers */,
+				30CB62B4DFA2A4F80CA5904194FE6FD6 /* MRDLNA-umbrella.h in Headers */,
+				49F522691E2A28AC854188B0F86970AB /* MRDLNA.h in Headers */,
+				0C04EA8F764CE7F1573ED49D65980638 /* StopAction.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,21 +711,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC8AA0401BBD1945528C1B95106D6732 /* Headers */ = {
+		A1AADD108D0BF8AD7D964A74F553BBB8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6A3AF3961D77433AF205E82D879E67F /* CLUPnP.h in Headers */,
-				91D9150B4A021FA25737B0C4333351C0 /* CLUPnPAction.h in Headers */,
-				05F13AA684C61D24644B3094C502CAF1 /* CLUPnPAVPositionInfo.h in Headers */,
-				28B17BBD1D87DC665851542B83D0403F /* CLUPnPDevice.h in Headers */,
-				42C37BBEFBC56D687D877CF8FBFCE7B3 /* CLUPnPRenderer.h in Headers */,
-				E1BBE03B3EC6414C9B59DA6D659DEAD6 /* CLUPnPResponseDelegate.h in Headers */,
-				38F47667AF1A16A4F697FC9B0C66CC40 /* CLUPnPServer.h in Headers */,
-				BCE6107DF17843A24F5587663914BDC7 /* GDataXMLNode.h in Headers */,
-				71D41CC52B6746353A3E25B529FC0BEA /* MRDLNA-umbrella.h in Headers */,
-				70CA203F6788ADFC989A318B50194CE2 /* MRDLNA.h in Headers */,
-				A95923DF608952B397216B18712ED6EC /* StopAction.h in Headers */,
+				849D9F5CC29D7356DA5710A634516AC2 /* LGMacros.h in Headers */,
+				75B8D19A6065204B4C192C6ECDB28EC7 /* LKMacroCategoryModule-umbrella.h in Headers */,
+				4033B135FD1793745A8BB1F270EE3274 /* NSString+Custom.h in Headers */,
+				9BE2766249A3021DA0696EAC8A9C6A0F /* UIColor+Custom.h in Headers */,
+				6FB1799CE121F9A31DE2E8B9DE5D63CF /* UIViewController+CurrentViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,8 +764,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				09E3D8A7C6545BBF2675F81DFB032E29 /* PBXTargetDependency */,
-				48DF531B711E502502A963091B92707E /* PBXTargetDependency */,
+				8A203559181C981C0A127A2513AA7EAF /* PBXTargetDependency */,
+				86563A6285492CF2129604008010CBCA /* PBXTargetDependency */,
 			);
 			name = LKDLNAModule;
 			productName = LKDLNAModule;
@@ -788,17 +774,17 @@
 		};
 		3D133736615D25181CFFC407B5895BD4 /* MRDLNA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 25CFF0FEEDF1646677A4215923D1D7CA /* Build configuration list for PBXNativeTarget "MRDLNA" */;
+			buildConfigurationList = 4F2C621A2ACB01C6D361B9A0FA335398 /* Build configuration list for PBXNativeTarget "MRDLNA" */;
 			buildPhases = (
-				AC8AA0401BBD1945528C1B95106D6732 /* Headers */,
-				BF51231ABD51FFBF90D4E7D1FB197948 /* Sources */,
-				EB22C7DD06BC3E74005CCED4C5AA2C4F /* Frameworks */,
-				68D3D5DE3BB837BF2E7CE6AC74AF80F9 /* Resources */,
+				24B4763E773563516AE4600F336DFC92 /* Headers */,
+				70D5AE21D831046D30DB07767D8EDA84 /* Sources */,
+				7DE32EED7949E64FB81F65BA73E19A34 /* Frameworks */,
+				B86695B0B0D66FF1A2CF441BEB9D0F3E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				92982997CF4E3FD5B5289C1493E4D419 /* PBXTargetDependency */,
+				2E9902BE83C73D8A6DA0F72B58D51C9B /* PBXTargetDependency */,
 			);
 			name = MRDLNA;
 			productName = MRDLNA;
@@ -825,12 +811,12 @@
 		};
 		8CD00A1633E74E637559713DD41C0B68 /* LKMacroCategoryModule */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59A850AAD286CA1BF7D222BEE2E99AD4 /* Build configuration list for PBXNativeTarget "LKMacroCategoryModule" */;
+			buildConfigurationList = C6671D1052F93888C1B1B3CC7CBA7F49 /* Build configuration list for PBXNativeTarget "LKMacroCategoryModule" */;
 			buildPhases = (
-				1A86514CBC3C48EB464BBF294B47C31E /* Headers */,
-				01403523795FF1E43E9370930FC77C5F /* Sources */,
-				1F6FAA5DFE197D240147ECAE2EA9E24A /* Frameworks */,
-				C6F0A343DA7209FEB4BA1AA7DB67020A /* Resources */,
+				A1AADD108D0BF8AD7D964A74F553BBB8 /* Headers */,
+				905DE261904BCBE68C7F2CEE42039F04 /* Sources */,
+				6403AABDFA80035511303822257F6398 /* Frameworks */,
+				3F6A5FC257DED49DE787CE092E5C6F84 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -871,8 +857,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				433A02ACA011610E88EC88AF2911E391 /* PBXTargetDependency */,
-				63C0042A77279170EC2D7EE37163120B /* PBXTargetDependency */,
+				935D46BC895E13031D18EFF4497F1280 /* PBXTargetDependency */,
+				32B0B0779405ABE1670E12F7A1D80934 /* PBXTargetDependency */,
 			);
 			name = "Pods-LKDLNAModule_Tests";
 			productName = "Pods-LKDLNAModule_Tests";
@@ -891,10 +877,10 @@
 			buildRules = (
 			);
 			dependencies = (
-				6CE6F805A20E8C244CFD10D326B1C5EB /* PBXTargetDependency */,
-				6C677996C6C2CD85449F13B9FC2519CB /* PBXTargetDependency */,
-				24634AB01DC2BC86D3AFF489343D3ED4 /* PBXTargetDependency */,
-				DB580E8A995860C54D39EC73CE0E2630 /* PBXTargetDependency */,
+				E7DB4064F0758181EFF2AA1F1C75E148 /* PBXTargetDependency */,
+				906804B7D1D713FB69BF2522E65E5424 /* PBXTargetDependency */,
+				CEF359D33CE4D06D2D090BA259179308 /* PBXTargetDependency */,
+				FCF8BF83EC341A4529A5482A0D2BA4F3 /* PBXTargetDependency */,
 			);
 			name = "Pods-LKDLNAModule_Example";
 			productName = "Pods-LKDLNAModule_Example";
@@ -935,14 +921,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
+		3F6A5FC257DED49DE787CE092E5C6F84 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		68D3D5DE3BB837BF2E7CE6AC74AF80F9 /* Resources */ = {
+		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -963,7 +949,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C6F0A343DA7209FEB4BA1AA7DB67020A /* Resources */ = {
+		B86695B0B0D66FF1A2CF441BEB9D0F3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -987,17 +973,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		01403523795FF1E43E9370930FC77C5F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5382E5DFBA0A223695C96D3F54F59F29 /* LKMacroCategoryModule-dummy.m in Sources */,
-				7DB13D9D35CDDDE23A046566B53467E8 /* NSString+Custom.m in Sources */,
-				0EA73E53653592DC170389AF6A2981E4 /* UIColor+Custom.m in Sources */,
-				4979D35832B85CF6F7D50D845D866A4E /* UIViewController+CurrentViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4920E2F47EC0874D094992B0DD2CA9E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1016,11 +991,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		70D5AE21D831046D30DB07767D8EDA84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32226CA74C2C402C01B8B7C1E3E0DC9 /* CLUPnPAction.m in Sources */,
+				EEE1F8B2ED62D341A83F66DC9BCA4C75 /* CLUPnPAVPositionInfo.m in Sources */,
+				307E5ADA7951CDFCC292CC8F75F6BB57 /* CLUPnPDevice.m in Sources */,
+				94862834EB213685F3D8A5A8D424A0CF /* CLUPnPRenderer.m in Sources */,
+				08991E3B7E61B9681E935E922F159420 /* CLUPnPServer.m in Sources */,
+				A5E989DDCCFE57BBB81E614A339D80C0 /* Device.xml in Sources */,
+				B788E3F8E968661A204EE469BF3B2D09 /* GDataXMLNode.m in Sources */,
+				798041A82E3C935EFC435C6CF611BF70 /* MRDLNA-dummy.m in Sources */,
+				E890031FFBF9F56446A04A5CB347C8B4 /* MRDLNA.m in Sources */,
+				AFA8B777F096625307C85EAA89F903CC /* SetUrl.xml in Sources */,
+				796193500157FF77A2D2F5BD1D45DB7B /* StopAction.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		884C390BF9AE459893CF2751E5429482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AE83C547BADADC3800ED98EF0E5E550F /* Pods-LKDLNAModule_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		905DE261904BCBE68C7F2CEE42039F04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				899273C46E86A05C4E177B58BCE2B077 /* LKMacroCategoryModule-dummy.m in Sources */,
+				7E8D2CDAE4085D97D1DF07FEC695D9FB /* NSString+Custom.m in Sources */,
+				1FAC6D0B24152B0F75D6E08308847F26 /* UIColor+Custom.m in Sources */,
+				EE7AAB64AF997ADF90CCFF1C93DD5E7C /* UIViewController+CurrentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1040,24 +1044,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BF51231ABD51FFBF90D4E7D1FB197948 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				14F8F4AA959CDE8844936164ED2CE9DD /* CLUPnPAction.m in Sources */,
-				6C0354BA8A91D309FB48EE67C348ECD4 /* CLUPnPAVPositionInfo.m in Sources */,
-				55F477DD672049B4A71B35FE6FE8B1AF /* CLUPnPDevice.m in Sources */,
-				B6D5CF0F11F69CC8FCDF39029CD3E7B5 /* CLUPnPRenderer.m in Sources */,
-				F4A6BEE824DAE45EB687465D1883860C /* CLUPnPServer.m in Sources */,
-				68A5CDE8F78609E536D04140A3846A23 /* Device.xml in Sources */,
-				800D7019A054FDA7775F731180CA1A22 /* GDataXMLNode.m in Sources */,
-				124D96D59191619A5AF11CF1FF7049EF /* MRDLNA-dummy.m in Sources */,
-				1E737CF0F8E98A857BB94B95B943BB41 /* MRDLNA.m in Sources */,
-				3B7FC5FC982DBB1EB754C18C09AD7598 /* SetUrl.xml in Sources */,
-				3CEC9CD0E4C47B86A0190AF45B3DB083 /* StopAction.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C42746074319B5B71715DC63ED5641F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1071,66 +1057,66 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		09E3D8A7C6545BBF2675F81DFB032E29 /* PBXTargetDependency */ = {
+		2E9902BE83C73D8A6DA0F72B58D51C9B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = LKMacroCategoryModule;
-			target = 8CD00A1633E74E637559713DD41C0B68 /* LKMacroCategoryModule */;
-			targetProxy = 9AE6ADE730E9AF16470ACC4308AAF831 /* PBXContainerItemProxy */;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 344B57C5F2E71B2A6489139E75ECA2EA /* PBXContainerItemProxy */;
 		};
-		24634AB01DC2BC86D3AFF489343D3ED4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LKMacroCategoryModule;
-			target = 8CD00A1633E74E637559713DD41C0B68 /* LKMacroCategoryModule */;
-			targetProxy = 8F7CDB1181A4B1150EAFBC90B3D3B10C /* PBXContainerItemProxy */;
-		};
-		433A02ACA011610E88EC88AF2911E391 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = FBSnapshotTestCase;
-			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
-			targetProxy = 68ADCD0CB73FDA126110CEF19B277E74 /* PBXContainerItemProxy */;
-		};
-		48DF531B711E502502A963091B92707E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MRDLNA;
-			target = 3D133736615D25181CFFC407B5895BD4 /* MRDLNA */;
-			targetProxy = C9A3CBEA17907BBA18E0DDE97C3DADCD /* PBXContainerItemProxy */;
-		};
-		63C0042A77279170EC2D7EE37163120B /* PBXTargetDependency */ = {
+		32B0B0779405ABE1670E12F7A1D80934 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-LKDLNAModule_Example";
 			target = D2CB8845D0C3998A74C83807CAF79E12 /* Pods-LKDLNAModule_Example */;
-			targetProxy = 84DEE197542709B288B4CD27E6CF057B /* PBXContainerItemProxy */;
+			targetProxy = 2979EEC5D3706626E08FA34A2C3285EE /* PBXContainerItemProxy */;
 		};
-		6C677996C6C2CD85449F13B9FC2519CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LKDLNAModule;
-			target = 2BBD618FF6C146D29CB9CE608A2C8FEA /* LKDLNAModule */;
-			targetProxy = 51066BAD3DE923CE25691EA4ECCFC7C7 /* PBXContainerItemProxy */;
-		};
-		6CE6F805A20E8C244CFD10D326B1C5EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
-			targetProxy = 42F06DB8EC039675E0536410455507D1 /* PBXContainerItemProxy */;
-		};
-		92982997CF4E3FD5B5289C1493E4D419 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
-			targetProxy = 1539F71441A70870CD5BFA7C84BEAA80 /* PBXContainerItemProxy */;
-		};
-		DB580E8A995860C54D39EC73CE0E2630 /* PBXTargetDependency */ = {
+		86563A6285492CF2129604008010CBCA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MRDLNA;
 			target = 3D133736615D25181CFFC407B5895BD4 /* MRDLNA */;
-			targetProxy = 377FC3512F3D26EE099B1184F7A550E8 /* PBXContainerItemProxy */;
+			targetProxy = 28889CF77CB593C8DE0CFDC125FEC62C /* PBXContainerItemProxy */;
+		};
+		8A203559181C981C0A127A2513AA7EAF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKMacroCategoryModule;
+			target = 8CD00A1633E74E637559713DD41C0B68 /* LKMacroCategoryModule */;
+			targetProxy = B92AD5FC25CC0FA257A0900C9B100EEC /* PBXContainerItemProxy */;
+		};
+		906804B7D1D713FB69BF2522E65E5424 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKDLNAModule;
+			target = 2BBD618FF6C146D29CB9CE608A2C8FEA /* LKDLNAModule */;
+			targetProxy = 829390C0A20B201E2CD5645E2A81BDFE /* PBXContainerItemProxy */;
+		};
+		935D46BC895E13031D18EFF4497F1280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = B8E2A08A0E2EE93315105EEC82F13949 /* PBXContainerItemProxy */;
+		};
+		CEF359D33CE4D06D2D090BA259179308 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LKMacroCategoryModule;
+			target = 8CD00A1633E74E637559713DD41C0B68 /* LKMacroCategoryModule */;
+			targetProxy = FA0D5338C650DEA6555C4B7175F2F47C /* PBXContainerItemProxy */;
+		};
+		E7DB4064F0758181EFF2AA1F1C75E148 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 35E4014725AC627277F5FF426CD8290B /* PBXContainerItemProxy */;
+		};
+		FCF8BF83EC341A4529A5482A0D2BA4F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MRDLNA;
+			target = 3D133736615D25181CFFC407B5895BD4 /* MRDLNA */;
+			targetProxy = 83FB2B14990546F40BE4C3240009CFC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		00A4B6E256C3879DE17E5AF7EED1C702 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E0CE2A8D0AE5FE2B757074B0D5E7569 /* CocoaAsyncSocket.release.xcconfig */;
+			baseConfigurationReference = 925054A38461DEAD8A900ACF319BD4BC /* CocoaAsyncSocket.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1159,9 +1145,40 @@
 			};
 			name = Release;
 		};
+		1030AB9D6DB4E0E6DF9850E0A563AEB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F89011B1B49A5D16E8448631E5E11896 /* MRDLNA.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MRDLNA/MRDLNA-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MRDLNA/MRDLNA-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MRDLNA/MRDLNA.modulemap";
+				PRODUCT_MODULE_NAME = MRDLNA;
+				PRODUCT_NAME = MRDLNA;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		11011C241DA872D106035562D50FDB5F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AC2C40896EE936932CAF6193085A221D /* LKDLNAModule.debug.xcconfig */;
+			baseConfigurationReference = AD610DE3CA237418A8F7EF7A23A46AA6 /* LKDLNAModule.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1179,36 +1196,6 @@
 				MODULEMAP_FILE = "Target Support Files/LKDLNAModule/LKDLNAModule.modulemap";
 				PRODUCT_MODULE_NAME = LKDLNAModule;
 				PRODUCT_NAME = LKDLNAModule;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		200AF481561A40E3B7934235C8BD17DF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF2D8233DA7F187F611B2FB3025982D1 /* LKMacroCategoryModule.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LKMacroCategoryModule/LKMacroCategoryModule-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LKMacroCategoryModule/LKMacroCategoryModule-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/LKMacroCategoryModule/LKMacroCategoryModule.modulemap";
-				PRODUCT_MODULE_NAME = LKMacroCategoryModule;
-				PRODUCT_NAME = LKMacroCategoryModule;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1320,7 +1307,7 @@
 		};
 		3E39A517897BFCDD1DD7268CB1B69BE9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C22F2A1C990A980F0A74AA63DC1BABB1 /* FBSnapshotTestCase.debug.xcconfig */;
+			baseConfigurationReference = DC613C07C364A6B6F99380411A4918EB /* FBSnapshotTestCase.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1348,9 +1335,9 @@
 			};
 			name = Debug;
 		};
-		4817606BAC5FCA4AF162B2A26E975796 /* Release */ = {
+		62D249EA27790221380046F4C053135E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D7C9409099F7422CB15458C7E2F501A6 /* MRDLNA.release.xcconfig */;
+			baseConfigurationReference = 14D38FC23131893C81F0B07DEF09C04A /* LKMacroCategoryModule.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1360,14 +1347,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MRDLNA/MRDLNA-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MRDLNA/MRDLNA-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LKMacroCategoryModule/LKMacroCategoryModule-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LKMacroCategoryModule/LKMacroCategoryModule-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MRDLNA/MRDLNA.modulemap";
-				PRODUCT_MODULE_NAME = MRDLNA;
-				PRODUCT_NAME = MRDLNA;
+				MODULEMAP_FILE = "Target Support Files/LKMacroCategoryModule/LKMacroCategoryModule.modulemap";
+				PRODUCT_MODULE_NAME = LKMacroCategoryModule;
+				PRODUCT_NAME = LKMacroCategoryModule;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -1413,7 +1400,7 @@
 		};
 		740045EEFADB93DB5CEE3054C838BC8B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 025C9FA3F35897CC18FCAD1E00B565CE /* LKDLNAModule.release.xcconfig */;
+			baseConfigurationReference = 5B45C773C16C2DD57090815974D71FA7 /* LKDLNAModule.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1477,7 +1464,7 @@
 		};
 		7A4A416E29DF0588D827B5F5D541C886 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F84A881FCD7795ED7D56C0871AA0ED49 /* CocoaAsyncSocket.debug.xcconfig */;
+			baseConfigurationReference = 69A854AC46A34AB0A72003CA20E789AB /* CocoaAsyncSocket.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1505,9 +1492,9 @@
 			};
 			name = Debug;
 		};
-		BD3DC572C05B431590600E2BEE2FED5E /* Debug */ = {
+		90BF35575A94E9FD52ED631A79574970 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4ED933C7671AE903FEB52D79DE01C272 /* MRDLNA.debug.xcconfig */;
+			baseConfigurationReference = CACB3991F521ACCDDB823A77A102E077 /* MRDLNA.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1537,7 +1524,7 @@
 		};
 		BF531801B332EDF71FA8F4F9667B86BC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8F7A2AFD2FDAD80E1AD18FF824F931F /* FBSnapshotTestCase.release.xcconfig */;
+			baseConfigurationReference = 41635F22885D559B19FC10DEBBC606F0 /* FBSnapshotTestCase.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1660,9 +1647,9 @@
 			};
 			name = Debug;
 		};
-		E406013F75B605A3435B555C22B642DF /* Release */ = {
+		FBA6C6AEA418F5B03D852EAA8488F3E4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5DDD44C9D3689EAAF3F0613A237CC65D /* LKMacroCategoryModule.release.xcconfig */;
+			baseConfigurationReference = 5AC5F6DF8D70C83DB35CBAF923594F4C /* LKMacroCategoryModule.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1685,24 +1672,14 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		25CFF0FEEDF1646677A4215923D1D7CA /* Build configuration list for PBXNativeTarget "MRDLNA" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BD3DC572C05B431590600E2BEE2FED5E /* Debug */,
-				4817606BAC5FCA4AF162B2A26E975796 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1712,20 +1689,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		4F2C621A2ACB01C6D361B9A0FA335398 /* Build configuration list for PBXNativeTarget "MRDLNA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90BF35575A94E9FD52ED631A79574970 /* Debug */,
+				1030AB9D6DB4E0E6DF9850E0A563AEB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4F87C6E13A23AEB1EEC8A65BBE0CCB83 /* Build configuration list for PBXNativeTarget "LKDLNAModule" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				11011C241DA872D106035562D50FDB5F /* Debug */,
 				740045EEFADB93DB5CEE3054C838BC8B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		59A850AAD286CA1BF7D222BEE2E99AD4 /* Build configuration list for PBXNativeTarget "LKMacroCategoryModule" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				200AF481561A40E3B7934235C8BD17DF /* Debug */,
-				E406013F75B605A3435B555C22B642DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1762,6 +1739,15 @@
 			buildConfigurations = (
 				D9018E60ED482EA6EC893A25CD88805A /* Debug */,
 				75A157D4219719A529C5BC5CF6674393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6671D1052F93888C1B1B3CC7CBA7F49 /* Build configuration list for PBXNativeTarget "LKMacroCategoryModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA6C6AEA418F5B03D852EAA8488F3E4 /* Debug */,
+				62D249EA27790221380046F4C053135E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
